@@ -1,13 +1,522 @@
 {
   "@@locale": "en",
+  "@alerts_quantityLine": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      },
+      "reorderPoint": {
+        "type": "String"
+      }
+    }
+  },
+  "@alerts_sectionLow": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@alerts_sectionOut": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_createdMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_errorWrongBrand": {
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_reminderStale": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@backup_restoreSummaryCreated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_restoreSummaryRow": {
+    "placeholders": {
+      "table": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_restoreSummaryStore": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_usageExported": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_archiveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_categoryDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_categoryProductCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@catalogue_categorySubCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@catalogue_lastUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_margin": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_resultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@catalogue_scanNotFound": {
+    "placeholders": {
+      "barcode": {
+        "type": "String"
+      }
+    }
+  },
+  "@onboarding_welcome": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devPicked": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "bytes": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devPlatformLabel": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devScanned": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_lowStockBody": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      },
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_outOfStockBody": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_applyConfirmBody": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_costLabel": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_previewCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_previewWarnings": {
+    "placeholders": {
+      "belowCost": {
+        "type": "String"
+      },
+      "zero": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_selectedProducts": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_summaryAverage": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_summaryCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@pricing_summaryUpDown": {
+    "placeholders": {
+      "up": {
+        "type": "String"
+      },
+      "down": {
+        "type": "String"
+      }
+    }
+  },
+  "@profiles_deactivateTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@profiles_limitReached": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@profiles_lockedOut": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@profiles_unlockTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@settings_autoLockAfter": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@settings_copiedContact": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_adjustDone": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_afterQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_alertSummary": {
+    "placeholders": {
+      "out": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_codeNotFound": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_currentQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_negativeConfirmBody": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_receiveDone": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_receiveSummary": {
+    "placeholders": {
+      "lines": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_reorderPointValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "alerts_acknowledge": "Mark as seen",
+  "alerts_acknowledged": "Seen",
+  "alerts_emptyBody": "Products drop in here as soon as they reach their reorder point.",
+  "alerts_emptyTitle": "Nothing is running low",
+  "alerts_openProduct": "Open product",
+  "alerts_quantityLine": "{quantity} left · reorder at {reorderPoint}",
+  "alerts_receiveStock": "Receive stock",
+  "alerts_sectionLow": "Running low ({count})",
+  "alerts_sectionOut": "Out of stock ({count})",
   "alerts_title": "Alerts",
+  "backup_createAction": "Create backup",
+  "backup_createBody": "Saves everything on this device — products, prices, stock, alerts and settings — as one file. Keep it somewhere safe, such as cloud storage or a second device.",
+  "backup_createTitle": "Create a backup",
+  "backup_createWorking": "Preparing the backup…",
+  "backup_createdMessage": "Backup saved as {fileName}",
+  "backup_errorCorrupt": "This backup file is damaged or incomplete. Nothing on this device was changed.",
+  "backup_errorEmpty": "This backup has no store in it.",
+  "backup_errorNewerSchema": "This backup was made with a newer version of the app. Update the app first, then restore.",
+  "backup_errorNotBackup": "That file isn't a ShelfWise backup.",
+  "backup_errorWrongBrand": "This backup belongs to a different app ({brand}). Restore it there instead.",
+  "backup_lastBackupLabel": "Last backup",
+  "backup_never": "Never",
+  "backup_notSaved": "The file wasn't saved.",
+  "backup_reminderAction": "Back up now",
+  "backup_reminderNever": "You haven't made a backup yet. Without one, the data on this device can't be recovered.",
+  "backup_reminderStale": "Your last backup was {days} days ago.",
+  "backup_reminderTitle": "Back up your data",
+  "backup_restoreAction": "Choose a backup file",
+  "backup_restoreBody": "Loads a backup file. Everything on this device is replaced by what the file contains.",
+  "backup_restoreContinue": "Continue",
+  "backup_restoreDone": "Backup restored. Choose your profile to continue.",
+  "backup_restoreFinalAction": "Replace everything",
+  "backup_restoreFinalBody": "Last step. The products, prices, stock and settings now on this device are deleted and replaced by the backup.",
+  "backup_restoreFinalTitle": "Replace everything?",
+  "backup_restoreNoFile": "No file was chosen.",
+  "backup_restoreSummaryContents": "What it contains",
+  "backup_restoreSummaryCreated": "Created: {date}",
+  "backup_restoreSummaryRow": "{table}: {count}",
+  "backup_restoreSummaryStore": "Store: {store}",
+  "backup_restoreSummaryTitle": "Restore this backup?",
+  "backup_restoreTitle": "Restore from a backup",
+  "backup_restoreWarning": "All data on this device will be replaced. This can't be undone.",
+  "backup_restoreWorking": "Restoring…",
+  "backup_storageWarningBody": "The browser didn't allow permanent storage, so it can delete this store's data when space runs low. Make a backup regularly, or install the app.",
+  "backup_storageWarningTitle": "This browser may clear your data",
+  "backup_tableAppEvents": "Usage events",
+  "backup_tableBranches": "Branches",
+  "backup_tableCategories": "Categories",
+  "backup_tablePriceChanges": "Price changes",
+  "backup_tableProductImages": "Product images",
+  "backup_tableProducts": "Products",
+  "backup_tableProfiles": "Profiles",
+  "backup_tableSettings": "Settings",
+  "backup_tableStockAlerts": "Alerts",
+  "backup_tableStockLevels": "Stock levels",
+  "backup_tableStockMovements": "Stock movements",
+  "backup_tableStores": "Stores",
   "backup_title": "Backup & restore",
+  "backup_usageAction": "Export usage data",
+  "backup_usageBody": "Exports this store's activity as a CSV file for the pilot check-in: event names, dates and totals only — no product names, prices or PINs.",
+  "backup_usageExported": "Usage data saved as {fileName}",
+  "backup_usageTitle": "Usage data",
+  "catalogue_addProduct": "Add product",
+  "catalogue_archive": "Archive",
+  "catalogue_archiveBody": "It disappears from the lists but keeps its stock and price history. You can restore it later.",
+  "catalogue_archiveTitle": "Archive “{name}”?",
+  "catalogue_archived": "Archived",
+  "catalogue_archivedNotice": "This product is archived.",
+  "catalogue_belowCost": "The price is below the cost.",
   "catalogue_categoriesTitle": "Categories",
+  "catalogue_categoryAdd": "Add category",
+  "catalogue_categoryAll": "All categories",
+  "catalogue_categoryDeleteBody": "The category is removed. Its products keep their history.",
+  "catalogue_categoryDeleteTitle": "Delete “{name}”?",
+  "catalogue_categoryEditTitle": "Rename category",
+  "catalogue_categoryEmptyBody": "Group your products so you can find and reprice them quickly. You can add one level of sub-categories.",
+  "catalogue_categoryEmptyTitle": "No categories yet",
+  "catalogue_categoryHasChildren": "Delete or move its sub-categories first.",
+  "catalogue_categoryHasProducts": "This category still has products. Choose where to move them.",
+  "catalogue_categoryMakeTopLevel": "Move to top level",
+  "catalogue_categoryMaxDepth": "Categories can only be two levels deep.",
+  "catalogue_categoryMoveDown": "Move down",
+  "catalogue_categoryMoveInto": "Move into…",
+  "catalogue_categoryMoveProductsTo": "Move products to",
+  "catalogue_categoryMoveUp": "Move up",
+  "catalogue_categoryNameLabel": "Category name",
+  "catalogue_categoryNameRequired": "Enter a category name.",
+  "catalogue_categoryNameTaken": "Another category here already has this name.",
+  "catalogue_categoryNameTooLong": "Use 60 characters or fewer.",
+  "catalogue_categoryNone": "No category",
+  "catalogue_categoryParentLabel": "Inside",
+  "catalogue_categoryProductCount": "{count, plural, =0{No products} =1{1 product} other{{count} products}}",
+  "catalogue_categorySubAdd": "Add sub-category",
+  "catalogue_categorySubCount": "{count, plural, =0{} =1{1 sub-category} other{{count} sub-categories}}",
+  "catalogue_categoryTopLevel": "Top level",
+  "catalogue_changePrice": "Change price",
+  "catalogue_clearFilters": "Clear filters",
+  "catalogue_created": "Product added",
+  "catalogue_currentStock": "In stock now",
+  "catalogue_detailsSection": "Details",
   "catalogue_editProductTitle": "Edit product",
+  "catalogue_emptyBody": "Add your first product, or import your catalogue from a file.",
+  "catalogue_emptyTitle": "No products yet",
+  "catalogue_errorBarcodeTaken": "Another product already uses this barcode.",
+  "catalogue_errorCodeTooLong": "Use 40 characters or fewer.",
+  "catalogue_errorCostInvalid": "Enter an amount like 12.50.",
+  "catalogue_errorNameRequired": "Enter a product name.",
+  "catalogue_errorNameTooLong": "Use 120 characters or fewer.",
+  "catalogue_errorPriceInvalid": "Enter an amount like 12.50.",
+  "catalogue_errorPriceRequired": "Enter a selling price.",
+  "catalogue_errorSkuTaken": "Another product already uses this SKU.",
+  "catalogue_fieldBarcode": "Barcode",
+  "catalogue_fieldCategory": "Category",
+  "catalogue_fieldCost": "Cost",
+  "catalogue_fieldName": "Name",
+  "catalogue_fieldNameAlt": "Second name (other language)",
+  "catalogue_fieldPhoto": "Photo",
+  "catalogue_fieldPrice": "Selling price",
+  "catalogue_fieldSku": "SKU",
+  "catalogue_fieldUnit": "Unit",
+  "catalogue_filterCategory": "Category",
+  "catalogue_filterStatus": "Stock",
+  "catalogue_lastUpdated": "Updated {date}",
+  "catalogue_margin": "Margin {percent}",
+  "catalogue_marginUnknown": "—",
   "catalogue_newProductTitle": "New product",
+  "catalogue_noResultsBody": "Try a different search, or clear the filters.",
+  "catalogue_noResultsTitle": "Nothing matches",
+  "catalogue_photoAdd": "Add photo",
+  "catalogue_photoFailed": "That file isn't a picture we can read.",
+  "catalogue_photoRemove": "Remove photo",
+  "catalogue_photoReplace": "Replace photo",
+  "catalogue_pickerEmpty": "No product matches.",
+  "catalogue_pickerSearchHint": "Search or scan",
   "catalogue_pickerTitle": "Choose a product",
+  "catalogue_priceLockedHint": "Prices are changed from the pricing screen, so every change is recorded.",
+  "catalogue_priceSection": "Price",
   "catalogue_productTitle": "Product",
   "catalogue_productsTitle": "Products",
+  "catalogue_resultCount": "{count, plural, =0{No products} =1{1 product} other{{count} products}}",
+  "catalogue_saved": "Product saved",
+  "catalogue_scan": "Scan barcode",
+  "catalogue_scanNotFound": "No product has the barcode {barcode}. Add it now?",
+  "catalogue_searchHint": "Search name, SKU or barcode",
+  "catalogue_showArchived": "Show archived",
+  "catalogue_sort": "Sort",
+  "catalogue_sortName": "Name",
+  "catalogue_sortRecent": "Recently updated",
+  "catalogue_unarchive": "Restore",
+  "catalogue_unitBox": "Box",
+  "catalogue_unitDecimalsHint": "Sold by weight or volume, so decimal quantities are allowed.",
+  "catalogue_unitG": "Gram",
+  "catalogue_unitKg": "Kilogram",
+  "catalogue_unitL": "Litre",
+  "catalogue_unitMl": "Millilitre",
+  "catalogue_unitPack": "Pack",
+  "catalogue_unitPiece": "Piece",
   "common_add": "Add",
   "common_cancel": "Cancel",
   "common_close": "Close",
@@ -47,21 +556,255 @@
   "common_themeSystem": "System",
   "dashboard_title": "Home",
   "import_title": "Import products",
+  "onboarding_back": "Back",
+  "onboarding_create": "Create store",
+  "onboarding_currency": "Currency",
+  "onboarding_errorOwnerName": "Enter your name.",
+  "onboarding_errorPin": "The PIN must be 4 to 6 digits.",
+  "onboarding_errorStoreName": "Enter a store name.",
+  "onboarding_language": "Language",
+  "onboarding_next": "Next",
+  "onboarding_ownerName": "Your name",
+  "onboarding_ownerNameHint": "Karim",
+  "onboarding_ownerNote": "You are the owner. You can add staff profiles later in Settings.",
+  "onboarding_pinExplain": "Pick a PIN of 4 to 6 digits. You will enter it to unlock the app.",
+  "onboarding_pinMismatch": "The two PINs are different. Start again.",
+  "onboarding_pinRepeat": "Enter the PIN again",
+  "onboarding_preparing": "Preparing…",
+  "onboarding_stepOwner": "Your profile",
+  "onboarding_stepPin": "Your PIN",
+  "onboarding_stepStore": "Your store",
+  "onboarding_storeName": "Store name",
+  "onboarding_storeNameHint": "Al Nour Market",
   "onboarding_title": "Set up your store",
+  "onboarding_welcome": "Welcome to {appName}",
+  "onboarding_welcomeBody": "A few details and your store is ready. Everything stays on this device.",
+  "platform_cameraDeniedBody": "The camera is needed to scan barcodes. Turn it on for this app in your device settings, or type the code by hand.",
+  "platform_cameraDeniedTitle": "Camera access is off",
+  "platform_cameraErrorBody": "Close any other app that is using the camera and try again, or type the code by hand.",
+  "platform_cameraErrorTitle": "The camera couldn't start",
+  "platform_cameraUnsupportedBody": "This device has no camera the app can use. Use a USB barcode scanner or type the code by hand.",
+  "platform_cameraUnsupportedTitle": "No camera available",
+  "platform_devCameraAvailable": "Camera scanning is available",
+  "platform_devCameraUnavailable": "No camera scanning — the keyboard-wedge dialog is used",
+  "platform_devCancelled": "Cancelled",
+  "platform_devFailed": "Failed: {error}",
+  "platform_devFilesSection": "Files",
+  "platform_devNoResult": "Nothing yet",
+  "platform_devNotificationSent": "Notification sent (it may be held back by the one-per-hour limit)",
+  "platform_devNotificationsSection": "Notifications",
+  "platform_devPermissionDenied": "Permission denied",
+  "platform_devPermissionGranted": "Permission granted",
+  "platform_devPick": "Pick a file",
+  "platform_devPicked": "Picked {name} ({bytes} bytes)",
+  "platform_devPlatformLabel": "Platform: {platform}",
+  "platform_devRequestPermission": "Ask for notification permission",
+  "platform_devResult": "Result",
+  "platform_devSave": "Save a test file",
+  "platform_devSaved": "Saved",
+  "platform_devScan": "Scan a barcode",
+  "platform_devScanned": "Scanned: {code}",
+  "platform_devScannerSection": "Barcode scanner",
+  "platform_devShowLow": "Show a low-stock notification",
+  "platform_devShowOut": "Show an out-of-stock notification",
+  "platform_lowStockBody": "{product} is down to {quantity}.",
+  "platform_lowStockTitle": "Low stock",
+  "platform_notificationChannelDescription": "Tells you when a product reaches its reorder point or runs out.",
+  "platform_notificationChannelName": "Low stock",
+  "platform_outOfStockBody": "{product} is out of stock.",
+  "platform_outOfStockTitle": "Out of stock",
+  "platform_scanEnterManually": "Enter the code by hand",
+  "platform_scanHint": "Point the camera at the barcode",
+  "platform_scanSwitchCamera": "Switch camera",
+  "platform_scanTitle": "Scan barcode",
+  "platform_scanTorch": "Flash",
+  "platform_wedgeHelp": "Scan with your USB or Bluetooth scanner, or type the code and press Enter.",
+  "platform_wedgeHint": "Barcode",
+  "platform_wedgeSubmit": "Use code",
+  "platform_wedgeTitle": "Scan or type a barcode",
+  "pricing_addProducts": "Add products",
+  "pricing_amountFixed": "Amount",
+  "pricing_amountPercent": "Percent",
+  "pricing_apply": "Apply",
+  "pricing_applyConfirmBody": "{count} products will be repriced. This is recorded and can be reviewed later.",
+  "pricing_applyConfirmTitle": "Apply new prices?",
+  "pricing_back": "Back",
+  "pricing_belowCost": "This price is below cost.",
   "pricing_bulkTitle": "Update prices",
+  "pricing_change": "Change",
+  "pricing_chooseCategory": "Choose a category",
+  "pricing_clearSelection": "Clear",
+  "pricing_costLabel": "Cost {value}",
+  "pricing_currentCost": "Current cost",
+  "pricing_currentPrice": "Current price",
+  "pricing_decrease": "Decrease",
+  "pricing_done": "Done",
   "pricing_editTitle": "Change price",
+  "pricing_errorAmount": "Enter how much to change prices by.",
+  "pricing_errorNoChanges": "These settings change nothing.",
+  "pricing_errorScope": "Choose a category or pick some products.",
+  "pricing_flagBelowCost": "Below cost",
+  "pricing_flagZero": "Zero",
+  "pricing_includeSubcategories": "Include sub-categories",
+  "pricing_increase": "Increase",
+  "pricing_invalidCost": "Enter a cost like 8.00.",
+  "pricing_invalidPrice": "Enter a price like 12.50.",
+  "pricing_margin": "Margin",
+  "pricing_marginNone": "—",
+  "pricing_modeAmount": "Amount",
+  "pricing_modePercent": "Percent",
+  "pricing_newCost": "New cost (optional)",
+  "pricing_newPrice": "New price",
+  "pricing_noProducts": "No products match this choice.",
+  "pricing_pickerUnavailable": "Product search isn't available yet. Open a product and use “Change price”, or reprice a whole category.",
+  "pricing_previewCount": "{count} products change",
+  "pricing_previewTitle": "Preview",
+  "pricing_previewWarnings": "{belowCost} below cost · {zero} at zero",
+  "pricing_roundNearest": "Nearest",
+  "pricing_roundUp": "Up",
+  "pricing_rounding": "Round prices to",
+  "pricing_roundingMode": "Rounding direction",
+  "pricing_roundingNone": "No rounding",
+  "pricing_savePrice": "Save price",
+  "pricing_saved": "Price updated",
+  "pricing_scope": "What to reprice",
+  "pricing_scopeCategory": "A category",
+  "pricing_scopeSelection": "Chosen products",
+  "pricing_selectedProducts": "{count} products chosen",
+  "pricing_showPreview": "Preview changes",
+  "pricing_summaryAverage": "Average change {percent}",
+  "pricing_summaryCount": "{count} products changed",
+  "pricing_summaryTitle": "Prices updated",
+  "pricing_summaryUpDown": "{up} up · {down} down",
+  "pricing_target": "Apply to",
+  "pricing_targetBoth": "Price and cost",
+  "pricing_targetCost": "Cost",
+  "pricing_targetPrice": "Price",
+  "pricing_viewChanges": "View changes",
+  "pricing_zeroPrice": "This product would be free.",
+  "profiles_activeSection": "Active",
+  "profiles_addStaff": "Add staff",
+  "profiles_addTitle": "New staff profile",
+  "profiles_deactivate": "Deactivate",
+  "profiles_deactivateBody": "They can no longer unlock the app. Their past stock movements are kept.",
+  "profiles_deactivateTitle": "Deactivate {name}?",
+  "profiles_editTitle": "Edit profile",
+  "profiles_errorName": "Enter a name.",
+  "profiles_errorPin": "The PIN must be 4 to 6 digits.",
+  "profiles_inactiveSection": "Inactive",
+  "profiles_language": "Language",
+  "profiles_languageStore": "Same as the store",
+  "profiles_limitReached": "Your plan includes {max} staff profiles. Upgrade the plan to add more.",
+  "profiles_lockNow": "Lock now",
   "profiles_lockTitle": "Who's using the app?",
+  "profiles_lockedOut": "Too many wrong tries. Wait {seconds} s.",
   "profiles_manageTitle": "Profiles",
+  "profiles_name": "Name",
+  "profiles_noneActive": "No profile can unlock this device. Ask the owner.",
+  "profiles_ownerProtected": "The owner profile stays active.",
+  "profiles_pinHint": "4 to 6 digits",
+  "profiles_pinMismatch": "The two PINs are different. Start again.",
+  "profiles_pinRepeat": "Enter the PIN again",
+  "profiles_reactivate": "Reactivate",
+  "profiles_resetPin": "Change PIN",
+  "profiles_roleOwner": "Owner",
+  "profiles_roleStaff": "Staff",
+  "profiles_savedAdded": "Profile added.",
+  "profiles_savedPin": "PIN changed.",
+  "profiles_savedUpdated": "Profile saved.",
+  "profiles_unlockTitle": "Enter {name}'s PIN",
+  "profiles_wrongPin": "Wrong PIN. Try again.",
+  "settings_about": "About",
+  "settings_appearance": "Appearance",
+  "settings_autoLock": "Lock after inactivity",
+  "settings_autoLockAfter": "{minutes, plural, =1{1 minute} other{{minutes} minutes}}",
+  "settings_autoLockNever": "Never",
   "settings_backup": "Backup & restore",
+  "settings_copiedContact": "Copied {value}",
+  "settings_currency": "Currency",
+  "settings_currencyNote": "Prices keep their numbers and are shown in the new currency.",
+  "settings_data": "Data",
+  "settings_errorStoreName": "Enter a store name.",
   "settings_import": "Import products",
   "settings_language": "Language",
+  "settings_languageStore": "Same as the store",
   "settings_latinDigits": "Use Latin digits (0-9)",
+  "settings_plan": "Plan",
+  "settings_planAisle": "Aisle",
+  "settings_planChain": "Chain",
+  "settings_planShelf": "Shelf",
+  "settings_privacy": "Privacy policy",
   "settings_profiles": "Profiles",
+  "settings_saveStore": "Save",
+  "settings_security": "Security",
+  "settings_store": "Store",
+  "settings_storeName": "Store name",
+  "settings_storeSaved": "Store details saved.",
+  "settings_supportEmail": "Email support",
+  "settings_supportPhone": "Call support",
+  "settings_supportWhatsapp": "WhatsApp",
   "settings_theme": "Theme",
   "settings_title": "Settings",
+  "stock_adjustDone": "Saved · now {value}",
   "stock_adjustTitle": "Adjust stock",
+  "stock_afterQuantity": "Now {value}",
+  "stock_alertSummary": "{out} out of stock · {low} running low",
+  "stock_codeHelper": "A USB scanner types here on its own",
+  "stock_codeLabel": "Scan or type a barcode",
+  "stock_codeNotFound": "No product has the code {code}",
+  "stock_codeSubmit": "Find product",
   "stock_countTitle": "Stock count",
+  "stock_currentQuantity": "In stock: {value}",
+  "stock_directionAdd": "Add",
+  "stock_directionRemove": "Remove",
+  "stock_discardBody": "The scanned lines will be removed. Nothing has been saved yet.",
+  "stock_discardTitle": "Discard this delivery?",
+  "stock_findProduct": "Search products",
+  "stock_finish": "Finish",
   "stock_historyTitle": "Stock history",
+  "stock_invalidAmount": "Enter an amount, for example 12.50",
+  "stock_invalidQuantity": "Enter a quantity, for example 2 or 2.5",
+  "stock_invalidWholeQuantity": "Enter a whole number, for example 12",
+  "stock_lookupFailed": "Couldn't look that product up. Please try again.",
+  "stock_negativeConfirmBody": "This leaves the product at {value}. Save it only if the count is really below zero.",
+  "stock_negativeConfirmTitle": "Save a negative stock level?",
+  "stock_negativeNotAllowed": "That is more than you have in stock. Use a correction if the count is wrong.",
+  "stock_noMovements": "No stock changes yet",
+  "stock_noMovementsBody": "Receiving a delivery or correcting a count will show up here.",
+  "stock_noteHelper": "Why the stock changed — useful when someone checks later",
+  "stock_noteLabel": "Note (optional)",
+  "stock_pickProduct": "Which product?",
+  "stock_pickProductBody": "Scan a barcode or search for a product to adjust its stock.",
+  "stock_quantityLabel": "Quantity",
+  "stock_reasonLabel": "What happened?",
+  "stock_receiveDone": "Delivery saved · {count} products",
+  "stock_receiveEmptyBody": "Scan a barcode, enter how many arrived, and carry on. Nothing is saved until you finish.",
+  "stock_receiveEmptyTitle": "Scan the first item",
+  "stock_receiveSummary": "{lines} products · {total} units",
   "stock_receiveTitle": "Receive delivery",
-  "stock_title": "Stock"
+  "stock_recentTitle": "Recent changes",
+  "stock_reorderPointHelper": "0 turns low-stock alerts off for this product",
+  "stock_reorderPointLabel": "Warn me at",
+  "stock_reorderPointSaved": "Reorder point saved",
+  "stock_reorderPointTitle": "Reorder point",
+  "stock_reorderPointValue": "Reorder point: {value}",
+  "stock_scan": "Scan with the camera",
+  "stock_title": "Stock",
+  "stock_typeAdjustment": "Correction",
+  "stock_typeCount": "Stock count",
+  "stock_typeDamaged": "Damaged",
+  "stock_typeExpired": "Expired",
+  "stock_typeReceive": "Received",
+  "stock_typeSale": "Sold",
+  "stock_typeTransferIn": "Transferred in",
+  "stock_typeTransferOut": "Transferred out",
+  "stock_unitBox": "box",
+  "stock_unitCostHelper": "What you paid per unit in this delivery",
+  "stock_unitCostLabel": "Unit cost (optional)",
+  "stock_unitG": "g",
+  "stock_unitKg": "kg",
+  "stock_unitL": "L",
+  "stock_unitMl": "ml",
+  "stock_unitPack": "pack",
+  "stock_unitPiece": "pcs"
 }

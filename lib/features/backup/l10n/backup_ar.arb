@@ -1,4 +1,76 @@
 {
   "@@locale": "ar",
-  "backup_title": "النسخ الاحتياطي والاستعادة"
+  "backup_title": "النسخ الاحتياطي والاستعادة",
+  "backup_lastBackupLabel": "آخر نسخة احتياطية",
+  "backup_never": "لا توجد",
+  "backup_createTitle": "إنشاء نسخة احتياطية",
+  "backup_createBody": "يحفظ كل ما على هذا الجهاز — المنتجات والأسعار والمخزون والتنبيهات والإعدادات — في ملف واحد. احتفظ به في مكان آمن مثل التخزين السحابي أو جهاز آخر.",
+  "backup_createAction": "إنشاء نسخة احتياطية",
+  "backup_createWorking": "جارٍ تجهيز النسخة الاحتياطية…",
+  "backup_createdMessage": "تم حفظ النسخة الاحتياطية باسم {fileName}",
+  "@backup_createdMessage": {
+    "placeholders": { "fileName": { "type": "String" } }
+  },
+  "backup_notSaved": "لم يتم حفظ الملف.",
+  "backup_restoreTitle": "الاستعادة من نسخة احتياطية",
+  "backup_restoreBody": "يفتح ملف نسخة احتياطية. سيحل محتوى الملف محل كل ما على هذا الجهاز.",
+  "backup_restoreAction": "اختيار ملف نسخة احتياطية",
+  "backup_restoreNoFile": "لم يتم اختيار أي ملف.",
+  "backup_restoreSummaryTitle": "استعادة هذه النسخة الاحتياطية؟",
+  "backup_restoreSummaryStore": "المتجر: {store}",
+  "@backup_restoreSummaryStore": {
+    "placeholders": { "store": { "type": "String" } }
+  },
+  "backup_restoreSummaryCreated": "تاريخ الإنشاء: {date}",
+  "@backup_restoreSummaryCreated": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "backup_restoreSummaryContents": "محتويات الملف",
+  "backup_restoreSummaryRow": "{table}: {count}",
+  "@backup_restoreSummaryRow": {
+    "placeholders": { "table": { "type": "String" }, "count": { "type": "String" } }
+  },
+  "backup_restoreWarning": "سيتم استبدال جميع البيانات الموجودة على هذا الجهاز، ولا يمكن التراجع عن ذلك.",
+  "backup_restoreContinue": "متابعة",
+  "backup_restoreFinalTitle": "استبدال كل البيانات؟",
+  "backup_restoreFinalBody": "هذه الخطوة الأخيرة. سيتم حذف المنتجات والأسعار والمخزون والإعدادات الموجودة الآن على هذا الجهاز واستبدالها بمحتوى النسخة الاحتياطية.",
+  "backup_restoreFinalAction": "استبدال كل شيء",
+  "backup_restoreWorking": "جارٍ الاستعادة…",
+  "backup_restoreDone": "تمت استعادة النسخة الاحتياطية. اختر ملفك الشخصي للمتابعة.",
+  "backup_errorNotBackup": "هذا الملف ليس نسخة احتياطية من ShelfWise.",
+  "backup_errorCorrupt": "ملف النسخة الاحتياطية تالف أو غير مكتمل. لم يتغير أي شيء على هذا الجهاز.",
+  "backup_errorWrongBrand": "هذه النسخة الاحتياطية تخص تطبيقًا آخر ({brand}). استعدها من خلاله.",
+  "@backup_errorWrongBrand": {
+    "placeholders": { "brand": { "type": "String" } }
+  },
+  "backup_errorNewerSchema": "أُنشئت هذه النسخة الاحتياطية بإصدار أحدث من التطبيق. حدّث التطبيق أولًا ثم استعدها.",
+  "backup_errorEmpty": "لا تحتوي هذه النسخة الاحتياطية على أي متجر.",
+  "backup_usageTitle": "بيانات الاستخدام",
+  "backup_usageBody": "يصدّر نشاط هذا المتجر في ملف CSV لمتابعة التجربة: أسماء الأحداث والتواريخ والإجماليات فقط — بدون أسماء منتجات أو أسعار أو أرقام سرية.",
+  "backup_usageAction": "تصدير بيانات الاستخدام",
+  "backup_usageExported": "تم حفظ بيانات الاستخدام باسم {fileName}",
+  "@backup_usageExported": {
+    "placeholders": { "fileName": { "type": "String" } }
+  },
+  "backup_reminderTitle": "احفظ نسخة احتياطية من بياناتك",
+  "backup_reminderNever": "لم تنشئ نسخة احتياطية بعد. بدونها لا يمكن استرجاع بيانات هذا الجهاز.",
+  "backup_reminderStale": "آخر نسخة احتياطية كانت قبل {days} يومًا.",
+  "@backup_reminderStale": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "backup_reminderAction": "إنشاء نسخة الآن",
+  "backup_storageWarningTitle": "قد يحذف المتصفح بياناتك",
+  "backup_storageWarningBody": "لم يسمح المتصفح بالتخزين الدائم، لذا قد يحذف بيانات هذا المتجر عند نقص المساحة. أنشئ نسخة احتياطية بانتظام أو ثبّت التطبيق.",
+  "backup_tableStores": "المتاجر",
+  "backup_tableBranches": "الفروع",
+  "backup_tableProfiles": "الملفات الشخصية",
+  "backup_tableCategories": "الأقسام",
+  "backup_tableProducts": "المنتجات",
+  "backup_tableProductImages": "صور المنتجات",
+  "backup_tableStockLevels": "أرصدة المخزون",
+  "backup_tableStockMovements": "حركات المخزون",
+  "backup_tablePriceChanges": "تغييرات الأسعار",
+  "backup_tableStockAlerts": "التنبيهات",
+  "backup_tableAppEvents": "أحداث الاستخدام",
+  "backup_tableSettings": "الإعدادات"
 }

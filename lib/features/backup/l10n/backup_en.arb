@@ -1,4 +1,76 @@
 {
   "@@locale": "en",
-  "backup_title": "Backup & restore"
+  "backup_title": "Backup & restore",
+  "backup_lastBackupLabel": "Last backup",
+  "backup_never": "Never",
+  "backup_createTitle": "Create a backup",
+  "backup_createBody": "Saves everything on this device — products, prices, stock, alerts and settings — as one file. Keep it somewhere safe, such as cloud storage or a second device.",
+  "backup_createAction": "Create backup",
+  "backup_createWorking": "Preparing the backup…",
+  "backup_createdMessage": "Backup saved as {fileName}",
+  "@backup_createdMessage": {
+    "placeholders": { "fileName": { "type": "String" } }
+  },
+  "backup_notSaved": "The file wasn't saved.",
+  "backup_restoreTitle": "Restore from a backup",
+  "backup_restoreBody": "Loads a backup file. Everything on this device is replaced by what the file contains.",
+  "backup_restoreAction": "Choose a backup file",
+  "backup_restoreNoFile": "No file was chosen.",
+  "backup_restoreSummaryTitle": "Restore this backup?",
+  "backup_restoreSummaryStore": "Store: {store}",
+  "@backup_restoreSummaryStore": {
+    "placeholders": { "store": { "type": "String" } }
+  },
+  "backup_restoreSummaryCreated": "Created: {date}",
+  "@backup_restoreSummaryCreated": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "backup_restoreSummaryContents": "What it contains",
+  "backup_restoreSummaryRow": "{table}: {count}",
+  "@backup_restoreSummaryRow": {
+    "placeholders": { "table": { "type": "String" }, "count": { "type": "String" } }
+  },
+  "backup_restoreWarning": "All data on this device will be replaced. This can't be undone.",
+  "backup_restoreContinue": "Continue",
+  "backup_restoreFinalTitle": "Replace everything?",
+  "backup_restoreFinalBody": "Last step. The products, prices, stock and settings now on this device are deleted and replaced by the backup.",
+  "backup_restoreFinalAction": "Replace everything",
+  "backup_restoreWorking": "Restoring…",
+  "backup_restoreDone": "Backup restored. Choose your profile to continue.",
+  "backup_errorNotBackup": "That file isn't a ShelfWise backup.",
+  "backup_errorCorrupt": "This backup file is damaged or incomplete. Nothing on this device was changed.",
+  "backup_errorWrongBrand": "This backup belongs to a different app ({brand}). Restore it there instead.",
+  "@backup_errorWrongBrand": {
+    "placeholders": { "brand": { "type": "String" } }
+  },
+  "backup_errorNewerSchema": "This backup was made with a newer version of the app. Update the app first, then restore.",
+  "backup_errorEmpty": "This backup has no store in it.",
+  "backup_usageTitle": "Usage data",
+  "backup_usageBody": "Exports this store's activity as a CSV file for the pilot check-in: event names, dates and totals only — no product names, prices or PINs.",
+  "backup_usageAction": "Export usage data",
+  "backup_usageExported": "Usage data saved as {fileName}",
+  "@backup_usageExported": {
+    "placeholders": { "fileName": { "type": "String" } }
+  },
+  "backup_reminderTitle": "Back up your data",
+  "backup_reminderNever": "You haven't made a backup yet. Without one, the data on this device can't be recovered.",
+  "backup_reminderStale": "Your last backup was {days} days ago.",
+  "@backup_reminderStale": {
+    "placeholders": { "days": { "type": "int" } }
+  },
+  "backup_reminderAction": "Back up now",
+  "backup_storageWarningTitle": "This browser may clear your data",
+  "backup_storageWarningBody": "The browser didn't allow permanent storage, so it can delete this store's data when space runs low. Make a backup regularly, or install the app.",
+  "backup_tableStores": "Stores",
+  "backup_tableBranches": "Branches",
+  "backup_tableProfiles": "Profiles",
+  "backup_tableCategories": "Categories",
+  "backup_tableProducts": "Products",
+  "backup_tableProductImages": "Product images",
+  "backup_tableStockLevels": "Stock levels",
+  "backup_tableStockMovements": "Stock movements",
+  "backup_tablePriceChanges": "Price changes",
+  "backup_tableStockAlerts": "Alerts",
+  "backup_tableAppEvents": "Usage events",
+  "backup_tableSettings": "Settings"
 }

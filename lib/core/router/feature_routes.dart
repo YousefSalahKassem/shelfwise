@@ -15,16 +15,16 @@ import 'feature_routes_contract.dart';
 
 /// Order matters only within a feature (literal paths before `:param` paths).
 List<FeatureRoutes> get allFeatureRoutes => [
-      onboardingRoutes,
-      profilesRoutes,
-      dashboardRoutes,
-      productsRoutes,
-      categoriesRoutes,
-      pricingRoutes,
-      stockRoutes,
-      alertsRoutes,
-      importExportRoutes,
-      backupRoutes,
-      settingsRoutes,
-      devPlatformRoutes,
-    ];
+  onboardingRoutes,
+  profilesRoutes,
+  dashboardRoutes,
+  productsRoutes,
+  categoriesRoutes,
+  pricingRoutes,
+  stockRoutes,
+  alertsRoutes,
+  importExportRoutes,
+  backupRoutes,
+  settingsRoutes,
+  devPlatformRoutes,
+];

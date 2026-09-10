@@ -6,5 +6,35 @@
   "settings_latinDigits": "Use Latin digits (0-9)",
   "settings_profiles": "Profiles",
   "settings_backup": "Backup & restore",
-  "settings_import": "Import products"
+  "settings_import": "Import products",
+  "settings_appearance": "Appearance",
+  "settings_languageStore": "Same as the store",
+  "settings_security": "Security",
+  "settings_autoLock": "Lock after inactivity",
+  "settings_autoLockNever": "Never",
+  "settings_autoLockAfter": "{minutes, plural, =1{1 minute} other{{minutes} minutes}}",
+  "@settings_autoLockAfter": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "settings_store": "Store",
+  "settings_storeName": "Store name",
+  "settings_currency": "Currency",
+  "settings_saveStore": "Save",
+  "settings_storeSaved": "Store details saved.",
+  "settings_currencyNote": "Prices keep their numbers and are shown in the new currency.",
+  "settings_errorStoreName": "Enter a store name.",
+  "settings_data": "Data",
+  "settings_about": "About",
+  "settings_supportPhone": "Call support",
+  "settings_supportWhatsapp": "WhatsApp",
+  "settings_supportEmail": "Email support",
+  "settings_privacy": "Privacy policy",
+  "settings_plan": "Plan",
+  "settings_planShelf": "Shelf",
+  "settings_planAisle": "Aisle",
+  "settings_planChain": "Chain",
+  "settings_copiedContact": "Copied {value}",
+  "@settings_copiedContact": {
+    "placeholders": { "value": { "type": "String" } }
+  }
 }

@@ -4,5 +4,91 @@
   "catalogue_newProductTitle": "منتج جديد",
   "catalogue_productTitle": "المنتج",
   "catalogue_editProductTitle": "تعديل المنتج",
-  "catalogue_pickerTitle": "اختر منتجًا"
+  "catalogue_pickerTitle": "اختر منتجًا",
+
+  "catalogue_searchHint": "ابحث بالاسم أو الكود أو الباركود",
+  "catalogue_scan": "مسح الباركود",
+  "catalogue_scanNotFound": "لا يوجد منتج بالباركود {barcode}. هل تضيفه الآن؟",
+  "@catalogue_scanNotFound": {
+    "placeholders": { "barcode": { "type": "String" } }
+  },
+  "catalogue_addProduct": "إضافة منتج",
+  "catalogue_filterStatus": "المخزون",
+  "catalogue_filterCategory": "الفئة",
+  "catalogue_showArchived": "عرض المؤرشف",
+  "catalogue_clearFilters": "مسح عوامل التصفية",
+  "catalogue_sort": "الترتيب",
+  "catalogue_sortName": "الاسم",
+  "catalogue_sortRecent": "الأحدث تعديلًا",
+  "catalogue_resultCount": "{count, plural, =0{لا توجد منتجات} =1{منتج واحد} =2{منتجان} few{{count} منتجات} many{{count} منتجًا} other{{count} منتج}}",
+  "@catalogue_resultCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "catalogue_emptyTitle": "لا توجد منتجات بعد",
+  "catalogue_emptyBody": "أضف أول منتج، أو استورد قائمة منتجاتك من ملف.",
+  "catalogue_noResultsTitle": "لا توجد نتائج",
+  "catalogue_noResultsBody": "جرّب بحثًا آخر أو امسح عوامل التصفية.",
+
+  "catalogue_fieldName": "الاسم",
+  "catalogue_fieldNameAlt": "اسم ثانٍ (بلغة أخرى)",
+  "catalogue_fieldCategory": "الفئة",
+  "catalogue_fieldSku": "كود المنتج",
+  "catalogue_fieldBarcode": "الباركود",
+  "catalogue_fieldUnit": "الوحدة",
+  "catalogue_fieldCost": "التكلفة",
+  "catalogue_fieldPrice": "سعر البيع",
+  "catalogue_fieldPhoto": "الصورة",
+  "catalogue_unitPiece": "قطعة",
+  "catalogue_unitKg": "كيلوجرام",
+  "catalogue_unitG": "جرام",
+  "catalogue_unitL": "لتر",
+  "catalogue_unitMl": "مليلتر",
+  "catalogue_unitBox": "صندوق",
+  "catalogue_unitPack": "عبوة",
+  "catalogue_unitDecimalsHint": "يُباع بالوزن أو الحجم، لذا تُقبل الكميات العشرية.",
+
+  "catalogue_errorNameRequired": "أدخل اسم المنتج.",
+  "catalogue_errorNameTooLong": "استخدم ١٢٠ حرفًا أو أقل.",
+  "catalogue_errorCodeTooLong": "استخدم ٤٠ حرفًا أو أقل.",
+  "catalogue_errorPriceRequired": "أدخل سعر البيع.",
+  "catalogue_errorPriceInvalid": "أدخل مبلغًا مثل ١٢٫٥٠.",
+  "catalogue_errorCostInvalid": "أدخل مبلغًا مثل ١٢٫٥٠.",
+  "catalogue_errorBarcodeTaken": "يستخدم منتج آخر هذا الباركود.",
+  "catalogue_errorSkuTaken": "يستخدم منتج آخر هذا الكود.",
+
+  "catalogue_saved": "تم حفظ المنتج",
+  "catalogue_created": "تمت إضافة المنتج",
+  "catalogue_priceLockedHint": "تُغيَّر الأسعار من شاشة الأسعار حتى يُسجَّل كل تغيير.",
+  "catalogue_changePrice": "تغيير السعر",
+  "catalogue_margin": "هامش الربح {percent}",
+  "@catalogue_margin": {
+    "placeholders": { "percent": { "type": "String" } }
+  },
+  "catalogue_marginUnknown": "—",
+  "catalogue_belowCost": "السعر أقل من التكلفة.",
+  "catalogue_currentStock": "المتوفر الآن",
+  "catalogue_detailsSection": "التفاصيل",
+  "catalogue_priceSection": "السعر",
+  "catalogue_lastUpdated": "آخر تعديل {date}",
+  "@catalogue_lastUpdated": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+
+  "catalogue_photoAdd": "إضافة صورة",
+  "catalogue_photoReplace": "تغيير الصورة",
+  "catalogue_photoRemove": "إزالة الصورة",
+  "catalogue_photoFailed": "تعذّرت قراءة هذا الملف كصورة.",
+
+  "catalogue_archive": "أرشفة",
+  "catalogue_unarchive": "استعادة",
+  "catalogue_archived": "مؤرشف",
+  "catalogue_archiveTitle": "أرشفة «{name}»؟",
+  "@catalogue_archiveTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "catalogue_archiveBody": "سيختفي من القوائم مع الاحتفاظ بسجلّ المخزون والأسعار، ويمكنك استعادته لاحقًا.",
+  "catalogue_archivedNotice": "هذا المنتج مؤرشف.",
+
+  "catalogue_pickerSearchHint": "ابحث أو امسح الباركود",
+  "catalogue_pickerEmpty": "لا يوجد منتج مطابق."
 }

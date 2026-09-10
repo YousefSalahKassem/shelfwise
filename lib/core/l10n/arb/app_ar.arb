@@ -1,13 +1,411 @@
 {
   "@@locale": "ar",
+  "@alerts_quantityLine": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      },
+      "reorderPoint": {
+        "type": "String"
+      }
+    }
+  },
+  "@alerts_sectionLow": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@alerts_sectionOut": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_createdMessage": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_errorWrongBrand": {
+    "placeholders": {
+      "brand": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_reminderStale": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@backup_restoreSummaryCreated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_restoreSummaryRow": {
+    "placeholders": {
+      "table": {
+        "type": "String"
+      },
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_restoreSummaryStore": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@backup_usageExported": {
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_archiveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_categoryDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_categoryProductCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@catalogue_categorySubCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@catalogue_lastUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_margin": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "@catalogue_resultCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@catalogue_scanNotFound": {
+    "placeholders": {
+      "barcode": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devPicked": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "bytes": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devPlatformLabel": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_devScanned": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_lowStockBody": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      },
+      "quantity": {
+        "type": "String"
+      }
+    }
+  },
+  "@platform_outOfStockBody": {
+    "placeholders": {
+      "product": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_adjustDone": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_afterQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_alertSummary": {
+    "placeholders": {
+      "out": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_codeNotFound": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_currentQuantity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_negativeConfirmBody": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_receiveDone": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_receiveSummary": {
+    "placeholders": {
+      "lines": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "@stock_reorderPointValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "alerts_acknowledge": "تمّت رؤيته",
+  "alerts_acknowledged": "تمت رؤيته",
+  "alerts_emptyBody": "تظهر المنتجات هنا فور وصولها إلى حد إعادة الطلب.",
+  "alerts_emptyTitle": "لا يوجد نقص في المخزون",
+  "alerts_openProduct": "فتح المنتج",
+  "alerts_quantityLine": "المتبقي {quantity} · حد إعادة الطلب {reorderPoint}",
+  "alerts_receiveStock": "استلام بضاعة",
+  "alerts_sectionLow": "على وشك النفاد ({count})",
+  "alerts_sectionOut": "نفد من المخزون ({count})",
   "alerts_title": "التنبيهات",
+  "backup_createAction": "إنشاء نسخة احتياطية",
+  "backup_createBody": "يحفظ كل ما على هذا الجهاز — المنتجات والأسعار والمخزون والتنبيهات والإعدادات — في ملف واحد. احتفظ به في مكان آمن مثل التخزين السحابي أو جهاز آخر.",
+  "backup_createTitle": "إنشاء نسخة احتياطية",
+  "backup_createWorking": "جارٍ تجهيز النسخة الاحتياطية…",
+  "backup_createdMessage": "تم حفظ النسخة الاحتياطية باسم {fileName}",
+  "backup_errorCorrupt": "ملف النسخة الاحتياطية تالف أو غير مكتمل. لم يتغير أي شيء على هذا الجهاز.",
+  "backup_errorEmpty": "لا تحتوي هذه النسخة الاحتياطية على أي متجر.",
+  "backup_errorNewerSchema": "أُنشئت هذه النسخة الاحتياطية بإصدار أحدث من التطبيق. حدّث التطبيق أولًا ثم استعدها.",
+  "backup_errorNotBackup": "هذا الملف ليس نسخة احتياطية من ShelfWise.",
+  "backup_errorWrongBrand": "هذه النسخة الاحتياطية تخص تطبيقًا آخر ({brand}). استعدها من خلاله.",
+  "backup_lastBackupLabel": "آخر نسخة احتياطية",
+  "backup_never": "لا توجد",
+  "backup_notSaved": "لم يتم حفظ الملف.",
+  "backup_reminderAction": "إنشاء نسخة الآن",
+  "backup_reminderNever": "لم تنشئ نسخة احتياطية بعد. بدونها لا يمكن استرجاع بيانات هذا الجهاز.",
+  "backup_reminderStale": "آخر نسخة احتياطية كانت قبل {days} يومًا.",
+  "backup_reminderTitle": "احفظ نسخة احتياطية من بياناتك",
+  "backup_restoreAction": "اختيار ملف نسخة احتياطية",
+  "backup_restoreBody": "يفتح ملف نسخة احتياطية. سيحل محتوى الملف محل كل ما على هذا الجهاز.",
+  "backup_restoreContinue": "متابعة",
+  "backup_restoreDone": "تمت استعادة النسخة الاحتياطية. اختر ملفك الشخصي للمتابعة.",
+  "backup_restoreFinalAction": "استبدال كل شيء",
+  "backup_restoreFinalBody": "هذه الخطوة الأخيرة. سيتم حذف المنتجات والأسعار والمخزون والإعدادات الموجودة الآن على هذا الجهاز واستبدالها بمحتوى النسخة الاحتياطية.",
+  "backup_restoreFinalTitle": "استبدال كل البيانات؟",
+  "backup_restoreNoFile": "لم يتم اختيار أي ملف.",
+  "backup_restoreSummaryContents": "محتويات الملف",
+  "backup_restoreSummaryCreated": "تاريخ الإنشاء: {date}",
+  "backup_restoreSummaryRow": "{table}: {count}",
+  "backup_restoreSummaryStore": "المتجر: {store}",
+  "backup_restoreSummaryTitle": "استعادة هذه النسخة الاحتياطية؟",
+  "backup_restoreTitle": "الاستعادة من نسخة احتياطية",
+  "backup_restoreWarning": "سيتم استبدال جميع البيانات الموجودة على هذا الجهاز، ولا يمكن التراجع عن ذلك.",
+  "backup_restoreWorking": "جارٍ الاستعادة…",
+  "backup_storageWarningBody": "لم يسمح المتصفح بالتخزين الدائم، لذا قد يحذف بيانات هذا المتجر عند نقص المساحة. أنشئ نسخة احتياطية بانتظام أو ثبّت التطبيق.",
+  "backup_storageWarningTitle": "قد يحذف المتصفح بياناتك",
+  "backup_tableAppEvents": "أحداث الاستخدام",
+  "backup_tableBranches": "الفروع",
+  "backup_tableCategories": "الأقسام",
+  "backup_tablePriceChanges": "تغييرات الأسعار",
+  "backup_tableProductImages": "صور المنتجات",
+  "backup_tableProducts": "المنتجات",
+  "backup_tableProfiles": "الملفات الشخصية",
+  "backup_tableSettings": "الإعدادات",
+  "backup_tableStockAlerts": "التنبيهات",
+  "backup_tableStockLevels": "أرصدة المخزون",
+  "backup_tableStockMovements": "حركات المخزون",
+  "backup_tableStores": "المتاجر",
   "backup_title": "النسخ الاحتياطي والاستعادة",
+  "backup_usageAction": "تصدير بيانات الاستخدام",
+  "backup_usageBody": "يصدّر نشاط هذا المتجر في ملف CSV لمتابعة التجربة: أسماء الأحداث والتواريخ والإجماليات فقط — بدون أسماء منتجات أو أسعار أو أرقام سرية.",
+  "backup_usageExported": "تم حفظ بيانات الاستخدام باسم {fileName}",
+  "backup_usageTitle": "بيانات الاستخدام",
+  "catalogue_addProduct": "إضافة منتج",
+  "catalogue_archive": "أرشفة",
+  "catalogue_archiveBody": "سيختفي من القوائم مع الاحتفاظ بسجلّ المخزون والأسعار، ويمكنك استعادته لاحقًا.",
+  "catalogue_archiveTitle": "أرشفة «{name}»؟",
+  "catalogue_archived": "مؤرشف",
+  "catalogue_archivedNotice": "هذا المنتج مؤرشف.",
+  "catalogue_belowCost": "السعر أقل من التكلفة.",
   "catalogue_categoriesTitle": "الفئات",
+  "catalogue_categoryAdd": "إضافة فئة",
+  "catalogue_categoryAll": "كل الفئات",
+  "catalogue_categoryDeleteBody": "سيتم حذف الفئة، وتحتفظ منتجاتها بسجلّها.",
+  "catalogue_categoryDeleteTitle": "حذف «{name}»؟",
+  "catalogue_categoryEditTitle": "إعادة تسمية الفئة",
+  "catalogue_categoryEmptyBody": "رتّب منتجاتك في فئات لتجدها وتغيّر أسعارها بسرعة. يمكنك إضافة مستوى واحد من الفئات الفرعية.",
+  "catalogue_categoryEmptyTitle": "لا توجد فئات بعد",
+  "catalogue_categoryHasChildren": "احذف الفئات الفرعية أو انقلها أولًا.",
+  "catalogue_categoryHasProducts": "ما زالت الفئة تحتوي على منتجات. اختر أين تنقلها.",
+  "catalogue_categoryMakeTopLevel": "نقل إلى المستوى الأعلى",
+  "catalogue_categoryMaxDepth": "لا يمكن أن تتجاوز الفئات مستويين.",
+  "catalogue_categoryMoveDown": "تحريك لأسفل",
+  "catalogue_categoryMoveInto": "نقل إلى…",
+  "catalogue_categoryMoveProductsTo": "نقل المنتجات إلى",
+  "catalogue_categoryMoveUp": "تحريك لأعلى",
+  "catalogue_categoryNameLabel": "اسم الفئة",
+  "catalogue_categoryNameRequired": "أدخل اسم الفئة.",
+  "catalogue_categoryNameTaken": "توجد فئة أخرى بالاسم نفسه هنا.",
+  "catalogue_categoryNameTooLong": "استخدم ٦٠ حرفًا أو أقل.",
+  "catalogue_categoryNone": "بدون فئة",
+  "catalogue_categoryParentLabel": "داخل",
+  "catalogue_categoryProductCount": "{count, plural, =0{لا توجد منتجات} =1{منتج واحد} =2{منتجان} few{{count} منتجات} many{{count} منتجًا} other{{count} منتج}}",
+  "catalogue_categorySubAdd": "إضافة فئة فرعية",
+  "catalogue_categorySubCount": "{count, plural, =0{} =1{فئة فرعية واحدة} =2{فئتان فرعيتان} few{{count} فئات فرعية} many{{count} فئة فرعية} other{{count} فئة فرعية}}",
+  "catalogue_categoryTopLevel": "المستوى الأعلى",
+  "catalogue_changePrice": "تغيير السعر",
+  "catalogue_clearFilters": "مسح عوامل التصفية",
+  "catalogue_created": "تمت إضافة المنتج",
+  "catalogue_currentStock": "المتوفر الآن",
+  "catalogue_detailsSection": "التفاصيل",
   "catalogue_editProductTitle": "تعديل المنتج",
+  "catalogue_emptyBody": "أضف أول منتج، أو استورد قائمة منتجاتك من ملف.",
+  "catalogue_emptyTitle": "لا توجد منتجات بعد",
+  "catalogue_errorBarcodeTaken": "يستخدم منتج آخر هذا الباركود.",
+  "catalogue_errorCodeTooLong": "استخدم ٤٠ حرفًا أو أقل.",
+  "catalogue_errorCostInvalid": "أدخل مبلغًا مثل ١٢٫٥٠.",
+  "catalogue_errorNameRequired": "أدخل اسم المنتج.",
+  "catalogue_errorNameTooLong": "استخدم ١٢٠ حرفًا أو أقل.",
+  "catalogue_errorPriceInvalid": "أدخل مبلغًا مثل ١٢٫٥٠.",
+  "catalogue_errorPriceRequired": "أدخل سعر البيع.",
+  "catalogue_errorSkuTaken": "يستخدم منتج آخر هذا الكود.",
+  "catalogue_fieldBarcode": "الباركود",
+  "catalogue_fieldCategory": "الفئة",
+  "catalogue_fieldCost": "التكلفة",
+  "catalogue_fieldName": "الاسم",
+  "catalogue_fieldNameAlt": "اسم ثانٍ (بلغة أخرى)",
+  "catalogue_fieldPhoto": "الصورة",
+  "catalogue_fieldPrice": "سعر البيع",
+  "catalogue_fieldSku": "كود المنتج",
+  "catalogue_fieldUnit": "الوحدة",
+  "catalogue_filterCategory": "الفئة",
+  "catalogue_filterStatus": "المخزون",
+  "catalogue_lastUpdated": "آخر تعديل {date}",
+  "catalogue_margin": "هامش الربح {percent}",
+  "catalogue_marginUnknown": "—",
   "catalogue_newProductTitle": "منتج جديد",
+  "catalogue_noResultsBody": "جرّب بحثًا آخر أو امسح عوامل التصفية.",
+  "catalogue_noResultsTitle": "لا توجد نتائج",
+  "catalogue_photoAdd": "إضافة صورة",
+  "catalogue_photoFailed": "تعذّرت قراءة هذا الملف كصورة.",
+  "catalogue_photoRemove": "إزالة الصورة",
+  "catalogue_photoReplace": "تغيير الصورة",
+  "catalogue_pickerEmpty": "لا يوجد منتج مطابق.",
+  "catalogue_pickerSearchHint": "ابحث أو امسح الباركود",
   "catalogue_pickerTitle": "اختر منتجًا",
+  "catalogue_priceLockedHint": "تُغيَّر الأسعار من شاشة الأسعار حتى يُسجَّل كل تغيير.",
+  "catalogue_priceSection": "السعر",
   "catalogue_productTitle": "المنتج",
   "catalogue_productsTitle": "المنتجات",
+  "catalogue_resultCount": "{count, plural, =0{لا توجد منتجات} =1{منتج واحد} =2{منتجان} few{{count} منتجات} many{{count} منتجًا} other{{count} منتج}}",
+  "catalogue_saved": "تم حفظ المنتج",
+  "catalogue_scan": "مسح الباركود",
+  "catalogue_scanNotFound": "لا يوجد منتج بالباركود {barcode}. هل تضيفه الآن؟",
+  "catalogue_searchHint": "ابحث بالاسم أو الكود أو الباركود",
+  "catalogue_showArchived": "عرض المؤرشف",
+  "catalogue_sort": "الترتيب",
+  "catalogue_sortName": "الاسم",
+  "catalogue_sortRecent": "الأحدث تعديلًا",
+  "catalogue_unarchive": "استعادة",
+  "catalogue_unitBox": "صندوق",
+  "catalogue_unitDecimalsHint": "يُباع بالوزن أو الحجم، لذا تُقبل الكميات العشرية.",
+  "catalogue_unitG": "جرام",
+  "catalogue_unitKg": "كيلوجرام",
+  "catalogue_unitL": "لتر",
+  "catalogue_unitMl": "مليلتر",
+  "catalogue_unitPack": "عبوة",
+  "catalogue_unitPiece": "قطعة",
   "common_add": "إضافة",
   "common_cancel": "إلغاء",
   "common_close": "إغلاق",
@@ -47,21 +445,255 @@
   "common_themeSystem": "حسب النظام",
   "dashboard_title": "الرئيسية",
   "import_title": "استيراد المنتجات",
+  "onboarding_back": "رجوع",
+  "onboarding_create": "إنشاء المتجر",
+  "onboarding_currency": "العملة",
+  "onboarding_errorOwnerName": "أدخل اسمك.",
+  "onboarding_errorPin": "يجب أن يتكون الرمز من ٤ إلى ٦ أرقام.",
+  "onboarding_errorStoreName": "أدخل اسم المتجر.",
+  "onboarding_language": "اللغة",
+  "onboarding_next": "التالي",
+  "onboarding_ownerName": "اسمك",
+  "onboarding_ownerNameHint": "كريم",
+  "onboarding_ownerNote": "أنت المالك. يمكنك إضافة ملفات الموظفين لاحقًا من الإعدادات.",
+  "onboarding_pinExplain": "اختر رمزًا من ٤ إلى ٦ أرقام. ستُدخله لفتح التطبيق.",
+  "onboarding_pinMismatch": "الرمزان غير متطابقين. ابدأ من جديد.",
+  "onboarding_pinRepeat": "أدخل الرمز مرة أخرى",
+  "onboarding_preparing": "جارٍ التحضير…",
+  "onboarding_stepOwner": "ملفك الشخصي",
+  "onboarding_stepPin": "رمز الدخول",
+  "onboarding_stepStore": "متجرك",
+  "onboarding_storeName": "اسم المتجر",
+  "onboarding_storeNameHint": "سوق النور",
   "onboarding_title": "إعداد متجرك",
+  "onboarding_welcome": "مرحبًا بك في {appName}",
+  "onboarding_welcomeBody": "بضع خطوات ويصبح متجرك جاهزًا. تبقى كل البيانات على هذا الجهاز.",
+  "platform_cameraDeniedBody": "نحتاج الكاميرا لمسح الباركود. فعّل إذن الكاميرا لهذا التطبيق من إعدادات الجهاز، أو أدخل الرمز يدويًا.",
+  "platform_cameraDeniedTitle": "الوصول إلى الكاميرا مغلق",
+  "platform_cameraErrorBody": "أغلق أي تطبيق آخر يستخدم الكاميرا وحاول مرة أخرى، أو أدخل الرمز يدويًا.",
+  "platform_cameraErrorTitle": "تعذّر تشغيل الكاميرا",
+  "platform_cameraUnsupportedBody": "لا توجد كاميرا يمكن للتطبيق استخدامها على هذا الجهاز. استخدم قارئ باركود USB أو أدخل الرمز يدويًا.",
+  "platform_cameraUnsupportedTitle": "لا توجد كاميرا متاحة",
+  "platform_devCameraAvailable": "المسح بالكاميرا متاح",
+  "platform_devCameraUnavailable": "لا يوجد مسح بالكاميرا — سيُستخدم مربّع إدخال القارئ",
+  "platform_devCancelled": "تم الإلغاء",
+  "platform_devFailed": "فشل: {error}",
+  "platform_devFilesSection": "الملفات",
+  "platform_devNoResult": "لا شيء بعد",
+  "platform_devNotificationSent": "أُرسل الإشعار (قد يُحجب بسبب حد إشعار واحد كل ساعة)",
+  "platform_devNotificationsSection": "الإشعارات",
+  "platform_devPermissionDenied": "تم رفض الإذن",
+  "platform_devPermissionGranted": "تم منح الإذن",
+  "platform_devPick": "اختيار ملف",
+  "platform_devPicked": "تم اختيار {name} ({bytes} بايت)",
+  "platform_devPlatformLabel": "المنصة: {platform}",
+  "platform_devRequestPermission": "طلب إذن الإشعارات",
+  "platform_devResult": "النتيجة",
+  "platform_devSave": "حفظ ملف تجريبي",
+  "platform_devSaved": "تم الحفظ",
+  "platform_devScan": "مسح باركود",
+  "platform_devScanned": "تم المسح: {code}",
+  "platform_devScannerSection": "قارئ الباركود",
+  "platform_devShowLow": "عرض إشعار مخزون منخفض",
+  "platform_devShowOut": "عرض إشعار نفاد المخزون",
+  "platform_lowStockBody": "{product} لم يتبقَّ منه سوى {quantity}.",
+  "platform_lowStockTitle": "المخزون منخفض",
+  "platform_notificationChannelDescription": "ينبّهك عندما يصل منتج إلى حد إعادة الطلب أو ينفد.",
+  "platform_notificationChannelName": "المخزون المنخفض",
+  "platform_outOfStockBody": "{product} نفد من المخزون.",
+  "platform_outOfStockTitle": "نفد المخزون",
+  "platform_scanEnterManually": "أدخل الرمز يدويًا",
+  "platform_scanHint": "وجّه الكاميرا نحو الباركود",
+  "platform_scanSwitchCamera": "تبديل الكاميرا",
+  "platform_scanTitle": "مسح الباركود",
+  "platform_scanTorch": "الفلاش",
+  "platform_wedgeHelp": "امسح بقارئ USB أو بلوتوث، أو اكتب الرمز واضغط Enter.",
+  "platform_wedgeHint": "الباركود",
+  "platform_wedgeSubmit": "استخدام الرمز",
+  "platform_wedgeTitle": "امسح الباركود أو اكتبه",
+  "pricing_addProducts": "إضافة منتجات",
+  "pricing_amountFixed": "المبلغ",
+  "pricing_amountPercent": "النسبة",
+  "pricing_apply": "تطبيق",
+  "pricing_applyConfirmBody": "سيتم تغيير أسعار {count} منتج. يُسجَّل هذا التغيير ويمكن مراجعته لاحقًا.",
+  "pricing_applyConfirmTitle": "تطبيق الأسعار الجديدة؟",
+  "pricing_back": "رجوع",
+  "pricing_belowCost": "هذا السعر أقل من التكلفة.",
   "pricing_bulkTitle": "تحديث الأسعار",
+  "pricing_change": "التغيير",
+  "pricing_chooseCategory": "اختر قسمًا",
+  "pricing_clearSelection": "مسح",
+  "pricing_costLabel": "التكلفة {value}",
+  "pricing_currentCost": "التكلفة الحالية",
+  "pricing_currentPrice": "السعر الحالي",
+  "pricing_decrease": "خصم",
+  "pricing_done": "تم",
   "pricing_editTitle": "تغيير السعر",
+  "pricing_errorAmount": "أدخل مقدار تغيير الأسعار.",
+  "pricing_errorNoChanges": "هذه الإعدادات لا تغيّر شيئًا.",
+  "pricing_errorScope": "اختر قسمًا أو حدّد منتجات.",
+  "pricing_flagBelowCost": "أقل من التكلفة",
+  "pricing_flagZero": "صفر",
+  "pricing_includeSubcategories": "تضمين الأقسام الفرعية",
+  "pricing_increase": "زيادة",
+  "pricing_invalidCost": "أدخل تكلفة مثل ٨٫٠٠.",
+  "pricing_invalidPrice": "أدخل سعرًا مثل ١٢٫٥٠.",
+  "pricing_margin": "هامش الربح",
+  "pricing_marginNone": "—",
+  "pricing_modeAmount": "مبلغ",
+  "pricing_modePercent": "نسبة مئوية",
+  "pricing_newCost": "التكلفة الجديدة (اختياري)",
+  "pricing_newPrice": "السعر الجديد",
+  "pricing_noProducts": "لا توجد منتجات مطابقة لهذا الاختيار.",
+  "pricing_pickerUnavailable": "البحث عن المنتجات غير متاح بعد. افتح منتجًا واستخدم «تغيير السعر»، أو غيّر أسعار قسم كامل.",
+  "pricing_previewCount": "{count} منتج سيتغير",
+  "pricing_previewTitle": "معاينة",
+  "pricing_previewWarnings": "{belowCost} أقل من التكلفة · {zero} بسعر صفر",
+  "pricing_roundNearest": "الأقرب",
+  "pricing_roundUp": "لأعلى",
+  "pricing_rounding": "تقريب الأسعار إلى",
+  "pricing_roundingMode": "اتجاه التقريب",
+  "pricing_roundingNone": "بدون تقريب",
+  "pricing_savePrice": "حفظ السعر",
+  "pricing_saved": "تم تحديث السعر",
+  "pricing_scope": "ما الذي تريد تسعيره",
+  "pricing_scopeCategory": "قسم",
+  "pricing_scopeSelection": "منتجات محددة",
+  "pricing_selectedProducts": "{count} منتج محدد",
+  "pricing_showPreview": "معاينة التغييرات",
+  "pricing_summaryAverage": "متوسط التغيير {percent}",
+  "pricing_summaryCount": "تم تغيير {count} منتج",
+  "pricing_summaryTitle": "تم تحديث الأسعار",
+  "pricing_summaryUpDown": "{up} زيادة · {down} خصم",
+  "pricing_target": "التطبيق على",
+  "pricing_targetBoth": "السعر والتكلفة",
+  "pricing_targetCost": "التكلفة",
+  "pricing_targetPrice": "السعر",
+  "pricing_viewChanges": "عرض التغييرات",
+  "pricing_zeroPrice": "سيصبح هذا المنتج مجانيًا.",
+  "profiles_activeSection": "نشط",
+  "profiles_addStaff": "إضافة موظف",
+  "profiles_addTitle": "ملف موظف جديد",
+  "profiles_deactivate": "إيقاف",
+  "profiles_deactivateBody": "لن يتمكن من فتح التطبيق. تبقى حركات المخزون السابقة كما هي.",
+  "profiles_deactivateTitle": "إيقاف {name}؟",
+  "profiles_editTitle": "تعديل الملف الشخصي",
+  "profiles_errorName": "أدخل الاسم.",
+  "profiles_errorPin": "يجب أن يتكون الرمز من ٤ إلى ٦ أرقام.",
+  "profiles_inactiveSection": "موقوف",
+  "profiles_language": "اللغة",
+  "profiles_languageStore": "كلغة المتجر",
+  "profiles_limitReached": "تتضمن باقتك {max} ملفات للموظفين. قم بترقية الباقة لإضافة المزيد.",
+  "profiles_lockNow": "قفل الآن",
   "profiles_lockTitle": "من يستخدم التطبيق؟",
+  "profiles_lockedOut": "محاولات خاطئة كثيرة. انتظر {seconds} ثانية.",
   "profiles_manageTitle": "الملفات الشخصية",
+  "profiles_name": "الاسم",
+  "profiles_noneActive": "لا يوجد ملف شخصي يمكنه فتح هذا الجهاز. اسأل المالك.",
+  "profiles_ownerProtected": "يبقى ملف المالك نشطًا.",
+  "profiles_pinHint": "من ٤ إلى ٦ أرقام",
+  "profiles_pinMismatch": "الرمزان غير متطابقين. ابدأ من جديد.",
+  "profiles_pinRepeat": "أدخل الرمز مرة أخرى",
+  "profiles_reactivate": "إعادة تفعيل",
+  "profiles_resetPin": "تغيير الرمز",
+  "profiles_roleOwner": "المالك",
+  "profiles_roleStaff": "موظف",
+  "profiles_savedAdded": "تمت إضافة الملف الشخصي.",
+  "profiles_savedPin": "تم تغيير الرمز.",
+  "profiles_savedUpdated": "تم حفظ الملف الشخصي.",
+  "profiles_unlockTitle": "أدخل رمز {name}",
+  "profiles_wrongPin": "رمز غير صحيح. حاول مرة أخرى.",
+  "settings_about": "حول التطبيق",
+  "settings_appearance": "المظهر العام",
+  "settings_autoLock": "القفل بعد عدم الاستخدام",
+  "settings_autoLockAfter": "{minutes, plural, zero{دقيقة} one{دقيقة واحدة} two{دقيقتان} few{{minutes} دقائق} many{{minutes} دقيقة} other{{minutes} دقيقة}}",
+  "settings_autoLockNever": "أبدًا",
   "settings_backup": "النسخ الاحتياطي والاستعادة",
+  "settings_copiedContact": "تم نسخ {value}",
+  "settings_currency": "العملة",
+  "settings_currencyNote": "تبقى الأسعار بأرقامها وتُعرض بالعملة الجديدة.",
+  "settings_data": "البيانات",
+  "settings_errorStoreName": "أدخل اسم المتجر.",
   "settings_import": "استيراد المنتجات",
   "settings_language": "اللغة",
+  "settings_languageStore": "كلغة المتجر",
   "settings_latinDigits": "استخدام الأرقام اللاتينية (0-9)",
+  "settings_plan": "الباقة",
+  "settings_planAisle": "ممر",
+  "settings_planChain": "سلسلة",
+  "settings_planShelf": "رف",
+  "settings_privacy": "سياسة الخصوصية",
   "settings_profiles": "الملفات الشخصية",
+  "settings_saveStore": "حفظ",
+  "settings_security": "الأمان",
+  "settings_store": "المتجر",
+  "settings_storeName": "اسم المتجر",
+  "settings_storeSaved": "تم حفظ بيانات المتجر.",
+  "settings_supportEmail": "مراسلة الدعم",
+  "settings_supportPhone": "الاتصال بالدعم",
+  "settings_supportWhatsapp": "واتساب",
   "settings_theme": "المظهر",
   "settings_title": "الإعدادات",
+  "stock_adjustDone": "تم الحفظ · الرصيد الآن {value}",
   "stock_adjustTitle": "تعديل المخزون",
+  "stock_afterQuantity": "الآن {value}",
+  "stock_alertSummary": "{out} نفد · {low} على وشك النفاد",
+  "stock_codeHelper": "قارئ الباركود USB يكتب هنا تلقائيًا",
+  "stock_codeLabel": "امسح الباركود أو اكتبه",
+  "stock_codeNotFound": "لا يوجد منتج بالكود {code}",
+  "stock_codeSubmit": "ابحث عن المنتج",
   "stock_countTitle": "جرد المخزون",
+  "stock_currentQuantity": "المتوفر: {value}",
+  "stock_directionAdd": "إضافة",
+  "stock_directionRemove": "خصم",
+  "stock_discardBody": "ستُحذف الأصناف الممسوحة، ولم يُحفظ شيء بعد.",
+  "stock_discardTitle": "إلغاء هذه الشحنة؟",
+  "stock_findProduct": "بحث في المنتجات",
+  "stock_finish": "إنهاء",
   "stock_historyTitle": "سجل المخزون",
+  "stock_invalidAmount": "أدخل مبلغًا، مثل ١٢٫٥٠",
+  "stock_invalidQuantity": "أدخل كمية، مثل ٢ أو ٢٫٥",
+  "stock_invalidWholeQuantity": "أدخل رقمًا صحيحًا، مثل ١٢",
+  "stock_lookupFailed": "تعذّر البحث عن المنتج. حاول مرة أخرى.",
+  "stock_negativeConfirmBody": "سيصبح رصيد المنتج {value}. احفظه فقط إذا كان الرصيد فعلًا أقل من صفر.",
+  "stock_negativeConfirmTitle": "حفظ رصيد بالسالب؟",
+  "stock_negativeNotAllowed": "الكمية أكبر من المتوفر. استخدم تصحيحًا إذا كان الرصيد غير صحيح.",
+  "stock_noMovements": "لا توجد حركات مخزون بعد",
+  "stock_noMovementsBody": "ستظهر هنا عمليات الاستلام والتصحيح فور تسجيلها.",
+  "stock_noteHelper": "سبب تغيّر المخزون — يفيد عند المراجعة لاحقًا",
+  "stock_noteLabel": "ملاحظة (اختياري)",
+  "stock_pickProduct": "أي منتج؟",
+  "stock_pickProductBody": "امسح باركود أو ابحث عن منتج لتعديل مخزونه.",
+  "stock_quantityLabel": "الكمية",
+  "stock_reasonLabel": "ماذا حدث؟",
+  "stock_receiveDone": "تم حفظ الشحنة · {count} منتجات",
+  "stock_receiveEmptyBody": "امسح الباركود، أدخل الكمية الواردة، ثم تابع. لا يُحفظ شيء قبل الضغط على إنهاء.",
+  "stock_receiveEmptyTitle": "امسح أول صنف",
+  "stock_receiveSummary": "{lines} منتجات · {total} وحدة",
   "stock_receiveTitle": "استلام بضاعة",
-  "stock_title": "المخزون"
+  "stock_recentTitle": "آخر التغييرات",
+  "stock_reorderPointHelper": "القيمة ٠ توقف تنبيهات نقص هذا المنتج",
+  "stock_reorderPointLabel": "نبّهني عند",
+  "stock_reorderPointSaved": "تم حفظ حد إعادة الطلب",
+  "stock_reorderPointTitle": "حد إعادة الطلب",
+  "stock_reorderPointValue": "حد إعادة الطلب: {value}",
+  "stock_scan": "المسح بالكاميرا",
+  "stock_title": "المخزون",
+  "stock_typeAdjustment": "تصحيح",
+  "stock_typeCount": "جرد",
+  "stock_typeDamaged": "تالف",
+  "stock_typeExpired": "منتهي الصلاحية",
+  "stock_typeReceive": "استلام",
+  "stock_typeSale": "بيع",
+  "stock_typeTransferIn": "تحويل وارد",
+  "stock_typeTransferOut": "تحويل صادر",
+  "stock_unitBox": "كرتونة",
+  "stock_unitCostHelper": "ما دفعته للوحدة في هذه الشحنة",
+  "stock_unitCostLabel": "سعر الوحدة (اختياري)",
+  "stock_unitG": "جم",
+  "stock_unitKg": "كجم",
+  "stock_unitL": "لتر",
+  "stock_unitMl": "مل",
+  "stock_unitPack": "عبوة",
+  "stock_unitPiece": "قطعة"
 }

@@ -4,5 +4,97 @@
   "stock_receiveTitle": "Receive delivery",
   "stock_adjustTitle": "Adjust stock",
   "stock_countTitle": "Stock count",
-  "stock_historyTitle": "Stock history"
+  "stock_historyTitle": "Stock history",
+
+  "stock_unitPiece": "pcs",
+  "stock_unitKg": "kg",
+  "stock_unitG": "g",
+  "stock_unitL": "L",
+  "stock_unitMl": "ml",
+  "stock_unitBox": "box",
+  "stock_unitPack": "pack",
+
+  "stock_typeReceive": "Received",
+  "stock_typeSale": "Sold",
+  "stock_typeDamaged": "Damaged",
+  "stock_typeExpired": "Expired",
+  "stock_typeAdjustment": "Correction",
+  "stock_typeCount": "Stock count",
+  "stock_typeTransferIn": "Transferred in",
+  "stock_typeTransferOut": "Transferred out",
+
+  "stock_codeLabel": "Scan or type a barcode",
+  "stock_codeHelper": "A USB scanner types here on its own",
+  "stock_codeSubmit": "Find product",
+  "stock_codeNotFound": "No product has the code {code}",
+  "@stock_codeNotFound": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "stock_lookupFailed": "Couldn't look that product up. Please try again.",
+  "stock_scan": "Scan with the camera",
+  "stock_findProduct": "Search products",
+  "stock_pickProduct": "Which product?",
+  "stock_pickProductBody": "Scan a barcode or search for a product to adjust its stock.",
+
+  "stock_quantityLabel": "Quantity",
+  "stock_unitCostLabel": "Unit cost (optional)",
+  "stock_unitCostHelper": "What you paid per unit in this delivery",
+  "stock_invalidQuantity": "Enter a quantity, for example 2 or 2.5",
+  "stock_invalidWholeQuantity": "Enter a whole number, for example 12",
+  "stock_invalidAmount": "Enter an amount, for example 12.50",
+
+  "stock_reorderPointTitle": "Reorder point",
+  "stock_reorderPointLabel": "Warn me at",
+  "stock_reorderPointHelper": "0 turns low-stock alerts off for this product",
+  "stock_reorderPointValue": "Reorder point: {value}",
+  "@stock_reorderPointValue": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_reorderPointSaved": "Reorder point saved",
+
+  "stock_recentTitle": "Recent changes",
+  "stock_noMovements": "No stock changes yet",
+  "stock_noMovementsBody": "Receiving a delivery or correcting a count will show up here.",
+  "stock_afterQuantity": "Now {value}",
+  "@stock_afterQuantity": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_currentQuantity": "In stock: {value}",
+  "@stock_currentQuantity": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_alertSummary": "{out} out of stock · {low} running low",
+  "@stock_alertSummary": {
+    "placeholders": { "out": { "type": "String" }, "low": { "type": "String" } }
+  },
+
+  "stock_receiveEmptyTitle": "Scan the first item",
+  "stock_receiveEmptyBody": "Scan a barcode, enter how many arrived, and carry on. Nothing is saved until you finish.",
+  "stock_receiveSummary": "{lines} products · {total} units",
+  "@stock_receiveSummary": {
+    "placeholders": { "lines": { "type": "String" }, "total": { "type": "String" } }
+  },
+  "stock_finish": "Finish",
+  "stock_receiveDone": "Delivery saved · {count} products",
+  "@stock_receiveDone": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "stock_discardTitle": "Discard this delivery?",
+  "stock_discardBody": "The scanned lines will be removed. Nothing has been saved yet.",
+
+  "stock_reasonLabel": "What happened?",
+  "stock_directionAdd": "Add",
+  "stock_directionRemove": "Remove",
+  "stock_noteLabel": "Note (optional)",
+  "stock_noteHelper": "Why the stock changed — useful when someone checks later",
+  "stock_negativeNotAllowed": "That is more than you have in stock. Use a correction if the count is wrong.",
+  "stock_negativeConfirmTitle": "Save a negative stock level?",
+  "stock_negativeConfirmBody": "This leaves the product at {value}. Save it only if the count is really below zero.",
+  "@stock_negativeConfirmBody": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_adjustDone": "Saved · now {value}",
+  "@stock_adjustDone": {
+    "placeholders": { "value": { "type": "String" } }
+  }
 }

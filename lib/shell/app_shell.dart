@@ -17,11 +17,36 @@ class _Destination {
 }
 
 final _destinations = <_Destination>[
-  _Destination(RoutePaths.dashboard, Icons.home_outlined, Icons.home, (l) => l.common_navDashboard),
-  _Destination(RoutePaths.products, Icons.inventory_2_outlined, Icons.inventory_2, (l) => l.common_navProducts),
-  _Destination(RoutePaths.stock, Icons.move_to_inbox_outlined, Icons.move_to_inbox, (l) => l.common_navStock),
-  _Destination(RoutePaths.alerts, Icons.notifications_outlined, Icons.notifications, (l) => l.common_navAlerts),
-  _Destination(RoutePaths.settings, Icons.settings_outlined, Icons.settings, (l) => l.common_navSettings),
+  _Destination(
+    RoutePaths.dashboard,
+    Icons.home_outlined,
+    Icons.home,
+    (l) => l.common_navDashboard,
+  ),
+  _Destination(
+    RoutePaths.products,
+    Icons.inventory_2_outlined,
+    Icons.inventory_2,
+    (l) => l.common_navProducts,
+  ),
+  _Destination(
+    RoutePaths.stock,
+    Icons.move_to_inbox_outlined,
+    Icons.move_to_inbox,
+    (l) => l.common_navStock,
+  ),
+  _Destination(
+    RoutePaths.alerts,
+    Icons.notifications_outlined,
+    Icons.notifications,
+    (l) => l.common_navAlerts,
+  ),
+  _Destination(
+    RoutePaths.settings,
+    Icons.settings_outlined,
+    Icons.settings,
+    (l) => l.common_navSettings,
+  ),
 ];
 
 class AppShell extends StatelessWidget {
@@ -35,7 +60,8 @@ class AppShell extends StatelessWidget {
       final p = _destinations[i].path;
       if (location == p || location.startsWith('$p/')) return i;
     }
-    if (location.startsWith('/categories') || location.startsWith('/prices')) return 1;
+    if (location.startsWith('/categories') || location.startsWith('/prices'))
+      return 1;
     return 0;
   }
 
@@ -76,7 +102,9 @@ class AppShell extends StatelessWidget {
             extended: extended,
             selectedIndex: _index,
             onDestinationSelected: go,
-            labelType: extended ? NavigationRailLabelType.none : NavigationRailLabelType.all,
+            labelType: extended
+                ? NavigationRailLabelType.none
+                : NavigationRailLabelType.all,
             leading: const Padding(
               padding: EdgeInsets.symmetric(vertical: AppSpacing.lg),
               child: BrandLogo(size: 40),

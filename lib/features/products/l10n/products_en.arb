@@ -4,5 +4,91 @@
   "catalogue_newProductTitle": "New product",
   "catalogue_productTitle": "Product",
   "catalogue_editProductTitle": "Edit product",
-  "catalogue_pickerTitle": "Choose a product"
+  "catalogue_pickerTitle": "Choose a product",
+
+  "catalogue_searchHint": "Search name, SKU or barcode",
+  "catalogue_scan": "Scan barcode",
+  "catalogue_scanNotFound": "No product has the barcode {barcode}. Add it now?",
+  "@catalogue_scanNotFound": {
+    "placeholders": { "barcode": { "type": "String" } }
+  },
+  "catalogue_addProduct": "Add product",
+  "catalogue_filterStatus": "Stock",
+  "catalogue_filterCategory": "Category",
+  "catalogue_showArchived": "Show archived",
+  "catalogue_clearFilters": "Clear filters",
+  "catalogue_sort": "Sort",
+  "catalogue_sortName": "Name",
+  "catalogue_sortRecent": "Recently updated",
+  "catalogue_resultCount": "{count, plural, =0{No products} =1{1 product} other{{count} products}}",
+  "@catalogue_resultCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "catalogue_emptyTitle": "No products yet",
+  "catalogue_emptyBody": "Add your first product, or import your catalogue from a file.",
+  "catalogue_noResultsTitle": "Nothing matches",
+  "catalogue_noResultsBody": "Try a different search, or clear the filters.",
+
+  "catalogue_fieldName": "Name",
+  "catalogue_fieldNameAlt": "Second name (other language)",
+  "catalogue_fieldCategory": "Category",
+  "catalogue_fieldSku": "SKU",
+  "catalogue_fieldBarcode": "Barcode",
+  "catalogue_fieldUnit": "Unit",
+  "catalogue_fieldCost": "Cost",
+  "catalogue_fieldPrice": "Selling price",
+  "catalogue_fieldPhoto": "Photo",
+  "catalogue_unitPiece": "Piece",
+  "catalogue_unitKg": "Kilogram",
+  "catalogue_unitG": "Gram",
+  "catalogue_unitL": "Litre",
+  "catalogue_unitMl": "Millilitre",
+  "catalogue_unitBox": "Box",
+  "catalogue_unitPack": "Pack",
+  "catalogue_unitDecimalsHint": "Sold by weight or volume, so decimal quantities are allowed.",
+
+  "catalogue_errorNameRequired": "Enter a product name.",
+  "catalogue_errorNameTooLong": "Use 120 characters or fewer.",
+  "catalogue_errorCodeTooLong": "Use 40 characters or fewer.",
+  "catalogue_errorPriceRequired": "Enter a selling price.",
+  "catalogue_errorPriceInvalid": "Enter an amount like 12.50.",
+  "catalogue_errorCostInvalid": "Enter an amount like 12.50.",
+  "catalogue_errorBarcodeTaken": "Another product already uses this barcode.",
+  "catalogue_errorSkuTaken": "Another product already uses this SKU.",
+
+  "catalogue_saved": "Product saved",
+  "catalogue_created": "Product added",
+  "catalogue_priceLockedHint": "Prices are changed from the pricing screen, so every change is recorded.",
+  "catalogue_changePrice": "Change price",
+  "catalogue_margin": "Margin {percent}",
+  "@catalogue_margin": {
+    "placeholders": { "percent": { "type": "String" } }
+  },
+  "catalogue_marginUnknown": "—",
+  "catalogue_belowCost": "The price is below the cost.",
+  "catalogue_currentStock": "In stock now",
+  "catalogue_detailsSection": "Details",
+  "catalogue_priceSection": "Price",
+  "catalogue_lastUpdated": "Updated {date}",
+  "@catalogue_lastUpdated": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+
+  "catalogue_photoAdd": "Add photo",
+  "catalogue_photoReplace": "Replace photo",
+  "catalogue_photoRemove": "Remove photo",
+  "catalogue_photoFailed": "That file isn't a picture we can read.",
+
+  "catalogue_archive": "Archive",
+  "catalogue_unarchive": "Restore",
+  "catalogue_archived": "Archived",
+  "catalogue_archiveTitle": "Archive “{name}”?",
+  "@catalogue_archiveTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "catalogue_archiveBody": "It disappears from the lists but keeps its stock and price history. You can restore it later.",
+  "catalogue_archivedNotice": "This product is archived.",
+
+  "catalogue_pickerSearchHint": "Search or scan",
+  "catalogue_pickerEmpty": "No product matches."
 }

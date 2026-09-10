@@ -8,7 +8,8 @@
     "shelfwise-dev": {
       "hosting": {
         "shelfwise": ["shelfwise-dev"],
-        "demo-green": ["demo-green-shelfwise-dev"]
+        "demo-green": ["demo-green-shelfwise-dev"],
+        "brand-studio": ["shelfwise-brand-studio"]
       }
     }
   }

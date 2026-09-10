@@ -1,4 +1,38 @@
 {
   "@@locale": "en",
-  "catalogue_categoriesTitle": "Categories"
+  "catalogue_categoriesTitle": "Categories",
+  "catalogue_categoryAdd": "Add category",
+  "catalogue_categorySubAdd": "Add sub-category",
+  "catalogue_categoryEditTitle": "Rename category",
+  "catalogue_categoryNameLabel": "Category name",
+  "catalogue_categoryParentLabel": "Inside",
+  "catalogue_categoryNone": "No category",
+  "catalogue_categoryAll": "All categories",
+  "catalogue_categoryTopLevel": "Top level",
+  "catalogue_categoryEmptyTitle": "No categories yet",
+  "catalogue_categoryEmptyBody": "Group your products so you can find and reprice them quickly. You can add one level of sub-categories.",
+  "catalogue_categoryDeleteTitle": "Delete “{name}”?",
+  "@catalogue_categoryDeleteTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "catalogue_categoryDeleteBody": "The category is removed. Its products keep their history.",
+  "catalogue_categoryHasChildren": "Delete or move its sub-categories first.",
+  "catalogue_categoryHasProducts": "This category still has products. Choose where to move them.",
+  "catalogue_categoryMoveProductsTo": "Move products to",
+  "catalogue_categoryMoveUp": "Move up",
+  "catalogue_categoryMoveDown": "Move down",
+  "catalogue_categoryMakeTopLevel": "Move to top level",
+  "catalogue_categoryMoveInto": "Move into…",
+  "catalogue_categoryMaxDepth": "Categories can only be two levels deep.",
+  "catalogue_categoryNameTaken": "Another category here already has this name.",
+  "catalogue_categoryNameRequired": "Enter a category name.",
+  "catalogue_categoryNameTooLong": "Use 60 characters or fewer.",
+  "catalogue_categoryProductCount": "{count, plural, =0{No products} =1{1 product} other{{count} products}}",
+  "@catalogue_categoryProductCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "catalogue_categorySubCount": "{count, plural, =0{} =1{1 sub-category} other{{count} sub-categories}}",
+  "@catalogue_categorySubCount": {
+    "placeholders": { "count": { "type": "int" } }
+  }
 }

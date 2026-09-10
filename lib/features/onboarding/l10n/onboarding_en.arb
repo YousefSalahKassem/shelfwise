@@ -1,4 +1,29 @@
 {
   "@@locale": "en",
-  "onboarding_title": "Set up your store"
+  "onboarding_title": "Set up your store",
+  "onboarding_welcome": "Welcome to {appName}",
+  "@onboarding_welcome": {
+    "placeholders": { "appName": { "type": "String" } }
+  },
+  "onboarding_welcomeBody": "A few details and your store is ready. Everything stays on this device.",
+  "onboarding_stepStore": "Your store",
+  "onboarding_stepOwner": "Your profile",
+  "onboarding_stepPin": "Your PIN",
+  "onboarding_storeName": "Store name",
+  "onboarding_storeNameHint": "Al Nour Market",
+  "onboarding_currency": "Currency",
+  "onboarding_language": "Language",
+  "onboarding_ownerName": "Your name",
+  "onboarding_ownerNameHint": "Karim",
+  "onboarding_ownerNote": "You are the owner. You can add staff profiles later in Settings.",
+  "onboarding_pinExplain": "Pick a PIN of 4 to 6 digits. You will enter it to unlock the app.",
+  "onboarding_pinRepeat": "Enter the PIN again",
+  "onboarding_pinMismatch": "The two PINs are different. Start again.",
+  "onboarding_next": "Next",
+  "onboarding_back": "Back",
+  "onboarding_create": "Create store",
+  "onboarding_errorStoreName": "Enter a store name.",
+  "onboarding_errorOwnerName": "Enter your name.",
+  "onboarding_errorPin": "The PIN must be 4 to 6 digits.",
+  "onboarding_preparing": "Preparing…"
 }

@@ -1,4 +1,25 @@
 {
   "@@locale": "en",
-  "alerts_title": "Alerts"
+  "alerts_title": "Alerts",
+  "alerts_emptyTitle": "Nothing is running low",
+  "alerts_emptyBody": "Products drop in here as soon as they reach their reorder point.",
+  "alerts_sectionOut": "Out of stock ({count})",
+  "@alerts_sectionOut": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "alerts_sectionLow": "Running low ({count})",
+  "@alerts_sectionLow": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "alerts_quantityLine": "{quantity} left · reorder at {reorderPoint}",
+  "@alerts_quantityLine": {
+    "placeholders": {
+      "quantity": { "type": "String" },
+      "reorderPoint": { "type": "String" }
+    }
+  },
+  "alerts_receiveStock": "Receive stock",
+  "alerts_openProduct": "Open product",
+  "alerts_acknowledge": "Mark as seen",
+  "alerts_acknowledged": "Seen"
 }

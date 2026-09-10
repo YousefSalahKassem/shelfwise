@@ -1,21 +1,19 @@
-// OWNER: feature agent (see AGENT_PHASES §5). W0 stub — replace freely.
+// OWNER: A1.
 import 'package:go_router/go_router.dart';
 
 import '../../../core/router/feature_routes_contract.dart';
 import '../../../core/router/route_paths.dart';
-import '../../../core/widgets/placeholder_page.dart';
+import 'pages/lock_page.dart';
+import 'pages/profiles_page.dart';
 
 FeatureRoutes get profilesRoutes => FeatureRoutes(
       fullscreen: [
-        GoRoute(
-          path: RoutePaths.lock,
-          builder: (context, state) => PlaceholderPage(title: (l) => l.profiles_lockTitle),
-        ),
+        GoRoute(path: RoutePaths.lock, builder: (context, state) => const LockPage()),
       ],
       shell: [
         GoRoute(
           path: RoutePaths.settingsProfiles,
-          builder: (context, state) => PlaceholderPage(title: (l) => l.profiles_manageTitle),
+          builder: (context, state) => const ProfilesPage(),
         ),
       ],
     );

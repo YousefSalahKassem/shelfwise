@@ -1,4 +1,38 @@
 {
   "@@locale": "ar",
-  "catalogue_categoriesTitle": "الفئات"
+  "catalogue_categoriesTitle": "الفئات",
+  "catalogue_categoryAdd": "إضافة فئة",
+  "catalogue_categorySubAdd": "إضافة فئة فرعية",
+  "catalogue_categoryEditTitle": "إعادة تسمية الفئة",
+  "catalogue_categoryNameLabel": "اسم الفئة",
+  "catalogue_categoryParentLabel": "داخل",
+  "catalogue_categoryNone": "بدون فئة",
+  "catalogue_categoryAll": "كل الفئات",
+  "catalogue_categoryTopLevel": "المستوى الأعلى",
+  "catalogue_categoryEmptyTitle": "لا توجد فئات بعد",
+  "catalogue_categoryEmptyBody": "رتّب منتجاتك في فئات لتجدها وتغيّر أسعارها بسرعة. يمكنك إضافة مستوى واحد من الفئات الفرعية.",
+  "catalogue_categoryDeleteTitle": "حذف «{name}»؟",
+  "@catalogue_categoryDeleteTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "catalogue_categoryDeleteBody": "سيتم حذف الفئة، وتحتفظ منتجاتها بسجلّها.",
+  "catalogue_categoryHasChildren": "احذف الفئات الفرعية أو انقلها أولًا.",
+  "catalogue_categoryHasProducts": "ما زالت الفئة تحتوي على منتجات. اختر أين تنقلها.",
+  "catalogue_categoryMoveProductsTo": "نقل المنتجات إلى",
+  "catalogue_categoryMoveUp": "تحريك لأعلى",
+  "catalogue_categoryMoveDown": "تحريك لأسفل",
+  "catalogue_categoryMakeTopLevel": "نقل إلى المستوى الأعلى",
+  "catalogue_categoryMoveInto": "نقل إلى…",
+  "catalogue_categoryMaxDepth": "لا يمكن أن تتجاوز الفئات مستويين.",
+  "catalogue_categoryNameTaken": "توجد فئة أخرى بالاسم نفسه هنا.",
+  "catalogue_categoryNameRequired": "أدخل اسم الفئة.",
+  "catalogue_categoryNameTooLong": "استخدم ٦٠ حرفًا أو أقل.",
+  "catalogue_categoryProductCount": "{count, plural, =0{لا توجد منتجات} =1{منتج واحد} =2{منتجان} few{{count} منتجات} many{{count} منتجًا} other{{count} منتج}}",
+  "@catalogue_categoryProductCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "catalogue_categorySubCount": "{count, plural, =0{} =1{فئة فرعية واحدة} =2{فئتان فرعيتان} few{{count} فئات فرعية} many{{count} فئة فرعية} other{{count} فئة فرعية}}",
+  "@catalogue_categorySubCount": {
+    "placeholders": { "count": { "type": "int" } }
+  }
 }

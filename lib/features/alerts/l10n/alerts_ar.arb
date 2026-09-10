@@ -1,4 +1,25 @@
 {
   "@@locale": "ar",
-  "alerts_title": "التنبيهات"
+  "alerts_title": "التنبيهات",
+  "alerts_emptyTitle": "لا يوجد نقص في المخزون",
+  "alerts_emptyBody": "تظهر المنتجات هنا فور وصولها إلى حد إعادة الطلب.",
+  "alerts_sectionOut": "نفد من المخزون ({count})",
+  "@alerts_sectionOut": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "alerts_sectionLow": "على وشك النفاد ({count})",
+  "@alerts_sectionLow": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "alerts_quantityLine": "المتبقي {quantity} · حد إعادة الطلب {reorderPoint}",
+  "@alerts_quantityLine": {
+    "placeholders": {
+      "quantity": { "type": "String" },
+      "reorderPoint": { "type": "String" }
+    }
+  },
+  "alerts_receiveStock": "استلام بضاعة",
+  "alerts_openProduct": "فتح المنتج",
+  "alerts_acknowledge": "تمّت رؤيته",
+  "alerts_acknowledged": "تمت رؤيته"
 }

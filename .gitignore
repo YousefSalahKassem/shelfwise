@@ -53,3 +53,6 @@ lib/core/l10n/gen/
 .agent/
 # Per-brand web builds
 dist/
+
+# Claude Code personal settings
+.claude/settings.local.json

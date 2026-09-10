@@ -208,9 +208,9 @@ done
 
 ```bash
 cd ../sw-A2-catalogue
-claude "You are agent A2. Read docs/AGENT_PHASES.md and docs/agent-briefs/W1-A2-catalogue.md, \
+claude "You are agent A2. Read .claude/AGENT_PHASES.md and .claude/agent-briefs/W1-A2-catalogue.md, \
 then implement the brief completely. Follow the rules in section 7 strictly. \
-When done, write docs/agent-reports/A2.md using the template in section 9."
+When done, write .claude/agent-reports/A2.md using the template in section 9."
 ```
 
 Tip: `tmux new-session -d -s sw` then `tmux split-window` per agent, or open one terminal tab per worktree.
@@ -225,7 +225,7 @@ Tip: `tmux new-session -d -s sw` then `tmux split-window` per agent, or open one
 
 ---
 
-## 9. Handoff report template (`docs/agent-reports/<ID>.md`)
+## 9. Handoff report template (`.claude/agent-reports/<ID>.md`)
 
 ```markdown
 # <ID> — <brief title> — handoff

@@ -1,5 +1,87 @@
 {
   "@@locale": "en",
   "pricing_bulkTitle": "Update prices",
-  "pricing_editTitle": "Change price"
+  "pricing_editTitle": "Change price",
+  "pricing_currentPrice": "Current price",
+  "pricing_currentCost": "Current cost",
+  "pricing_newPrice": "New price",
+  "pricing_newCost": "New cost (optional)",
+  "pricing_margin": "Margin",
+  "pricing_marginNone": "—",
+  "pricing_belowCost": "This price is below cost.",
+  "pricing_zeroPrice": "This product would be free.",
+  "pricing_savePrice": "Save price",
+  "pricing_saved": "Price updated",
+  "pricing_invalidPrice": "Enter a price like 12.50.",
+  "pricing_invalidCost": "Enter a cost like 8.00.",
+  "pricing_scope": "What to reprice",
+  "pricing_scopeCategory": "A category",
+  "pricing_scopeSelection": "Chosen products",
+  "pricing_chooseCategory": "Choose a category",
+  "pricing_includeSubcategories": "Include sub-categories",
+  "pricing_selectedProducts": "{count} products chosen",
+  "@pricing_selectedProducts": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "pricing_addProducts": "Add products",
+  "pricing_clearSelection": "Clear",
+  "pricing_change": "Change",
+  "pricing_modePercent": "Percent",
+  "pricing_modeAmount": "Amount",
+  "pricing_increase": "Increase",
+  "pricing_decrease": "Decrease",
+  "pricing_amountPercent": "Percent",
+  "pricing_amountFixed": "Amount",
+  "pricing_target": "Apply to",
+  "pricing_targetPrice": "Price",
+  "pricing_targetCost": "Cost",
+  "pricing_targetBoth": "Price and cost",
+  "pricing_rounding": "Round prices to",
+  "pricing_roundingNone": "No rounding",
+  "pricing_roundingMode": "Rounding direction",
+  "pricing_roundNearest": "Nearest",
+  "pricing_roundUp": "Up",
+  "pricing_showPreview": "Preview changes",
+  "pricing_previewTitle": "Preview",
+  "pricing_previewCount": "{count} products change",
+  "@pricing_previewCount": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "pricing_previewWarnings": "{belowCost} below cost · {zero} at zero",
+  "@pricing_previewWarnings": {
+    "placeholders": { "belowCost": { "type": "String" }, "zero": { "type": "String" } }
+  },
+  "pricing_flagBelowCost": "Below cost",
+  "pricing_flagZero": "Zero",
+  "pricing_noProducts": "No products match this choice.",
+  "pricing_errorScope": "Choose a category or pick some products.",
+  "pricing_errorAmount": "Enter how much to change prices by.",
+  "pricing_errorNoChanges": "These settings change nothing.",
+  "pricing_apply": "Apply",
+  "pricing_applyConfirmTitle": "Apply new prices?",
+  "pricing_applyConfirmBody": "{count} products will be repriced. This is recorded and can be reviewed later.",
+  "@pricing_applyConfirmBody": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "pricing_summaryTitle": "Prices updated",
+  "pricing_summaryCount": "{count} products changed",
+  "@pricing_summaryCount": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "pricing_summaryAverage": "Average change {percent}",
+  "@pricing_summaryAverage": {
+    "placeholders": { "percent": { "type": "String" } }
+  },
+  "pricing_summaryUpDown": "{up} up · {down} down",
+  "@pricing_summaryUpDown": {
+    "placeholders": { "up": { "type": "String" }, "down": { "type": "String" } }
+  },
+  "pricing_viewChanges": "View changes",
+  "pricing_done": "Done",
+  "pricing_back": "Back",
+  "pricing_costLabel": "Cost {value}",
+  "@pricing_costLabel": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "pricing_pickerUnavailable": "Product search isn't available yet. Open a product and use “Change price”, or reprice a whole category."
 }

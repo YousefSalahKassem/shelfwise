@@ -1,4 +1,26 @@
 {
   "@@locale": "ar",
-  "onboarding_title": "إعداد متجرك"
+  "onboarding_title": "إعداد متجرك",
+  "onboarding_welcome": "مرحبًا بك في {appName}",
+  "onboarding_welcomeBody": "بضع خطوات ويصبح متجرك جاهزًا. تبقى كل البيانات على هذا الجهاز.",
+  "onboarding_stepStore": "متجرك",
+  "onboarding_stepOwner": "ملفك الشخصي",
+  "onboarding_stepPin": "رمز الدخول",
+  "onboarding_storeName": "اسم المتجر",
+  "onboarding_storeNameHint": "سوق النور",
+  "onboarding_currency": "العملة",
+  "onboarding_language": "اللغة",
+  "onboarding_ownerName": "اسمك",
+  "onboarding_ownerNameHint": "كريم",
+  "onboarding_ownerNote": "أنت المالك. يمكنك إضافة ملفات الموظفين لاحقًا من الإعدادات.",
+  "onboarding_pinExplain": "اختر رمزًا من ٤ إلى ٦ أرقام. ستُدخله لفتح التطبيق.",
+  "onboarding_pinRepeat": "أدخل الرمز مرة أخرى",
+  "onboarding_pinMismatch": "الرمزان غير متطابقين. ابدأ من جديد.",
+  "onboarding_next": "التالي",
+  "onboarding_back": "رجوع",
+  "onboarding_create": "إنشاء المتجر",
+  "onboarding_errorStoreName": "أدخل اسم المتجر.",
+  "onboarding_errorOwnerName": "أدخل اسمك.",
+  "onboarding_errorPin": "يجب أن يتكون الرمز من ٤ إلى ٦ أرقام.",
+  "onboarding_preparing": "جارٍ التحضير…"
 }

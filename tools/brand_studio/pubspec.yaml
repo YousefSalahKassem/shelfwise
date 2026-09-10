@@ -1,0 +1,30 @@
+name: brand_studio
+description: "ShelfWise Brand Studio — create a white-label brand, preview it, export it."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.0
+
+# Internal team tool (A7). It path-depends on the app package so the preview uses
+# the real BrandConfig validation and the real buildTheme — never a copy.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shelfwise:
+    path: ../..
+  archive: ^4.0.7
+  file_picker: ^12.2.0
+  image: ^4.9.2
+  intl: ^0.20.2
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

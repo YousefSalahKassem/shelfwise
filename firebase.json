@@ -3,23 +3,130 @@
     {
       "target": "shelfwise",
       "public": "dist/shelfwise",
-      "ignore": ["firebase.json", "**/.*"],
-      "rewrites": [{ "source": "**", "destination": "/index.html" }],
+      "ignore": [
+        "firebase.json",
+        "**/.*"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
       "headers": [
-        { "source": "**/*.wasm", "headers": [{ "key": "Content-Type", "value": "application/wasm" }] },
-        { "source": "/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-        { "source": "**/*.@(js|wasm|png|ttf|otf)", "headers": [{ "key": "Cache-Control", "value": "max-age=604800" }] }
+        {
+          "source": "**/*.wasm",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/wasm"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(js|wasm|png|ttf|otf)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=604800"
+            }
+          ]
+        },
+        {
+          "source": "/@(index.html|manifest.json|flutter_service_worker.js|version.json)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        }
       ]
     },
     {
       "target": "demo-green",
       "public": "dist/demo-green",
-      "ignore": ["firebase.json", "**/.*"],
-      "rewrites": [{ "source": "**", "destination": "/index.html" }],
+      "ignore": [
+        "firebase.json",
+        "**/.*"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
       "headers": [
-        { "source": "**/*.wasm", "headers": [{ "key": "Content-Type", "value": "application/wasm" }] },
-        { "source": "/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-        { "source": "**/*.@(js|wasm|png|ttf|otf)", "headers": [{ "key": "Cache-Control", "value": "max-age=604800" }] }
+        {
+          "source": "**/*.wasm",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/wasm"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(js|wasm|png|ttf|otf)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=604800"
+            }
+          ]
+        },
+        {
+          "source": "/@(index.html|manifest.json|flutter_service_worker.js|version.json)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": "brand-studio",
+      "public": "dist/brand-studio",
+      "ignore": [
+        "firebase.json",
+        "**/.*"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "headers": [
+        {
+          "source": "**/*.wasm",
+          "headers": [
+            {
+              "key": "Content-Type",
+              "value": "application/wasm"
+            }
+          ]
+        },
+        {
+          "source": "**/*.@(js|wasm|png|ttf|otf)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "max-age=604800"
+            }
+          ]
+        },
+        {
+          "source": "/@(index.html|manifest.json|flutter_service_worker.js|version.json)",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        }
       ]
     }
   ]

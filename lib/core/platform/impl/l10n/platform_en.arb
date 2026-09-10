@@ -1,0 +1,82 @@
+{
+  "@@locale": "en",
+
+  "platform_scanTitle": "Scan barcode",
+  "platform_scanHint": "Point the camera at the barcode",
+  "platform_scanTorch": "Flash",
+  "platform_scanSwitchCamera": "Switch camera",
+  "platform_scanEnterManually": "Enter the code by hand",
+  "platform_cameraDeniedTitle": "Camera access is off",
+  "platform_cameraDeniedBody": "The camera is needed to scan barcodes. Turn it on for this app in your device settings, or type the code by hand.",
+  "platform_cameraUnsupportedTitle": "No camera available",
+  "platform_cameraUnsupportedBody": "This device has no camera the app can use. Use a USB barcode scanner or type the code by hand.",
+  "platform_cameraErrorTitle": "The camera couldn't start",
+  "platform_cameraErrorBody": "Close any other app that is using the camera and try again, or type the code by hand.",
+
+  "platform_wedgeTitle": "Scan or type a barcode",
+  "platform_wedgeHint": "Barcode",
+  "platform_wedgeHelp": "Scan with your USB or Bluetooth scanner, or type the code and press Enter.",
+  "platform_wedgeSubmit": "Use code",
+
+  "platform_lowStockTitle": "Low stock",
+  "platform_outOfStockTitle": "Out of stock",
+  "platform_lowStockBody": "{product} is down to {quantity}.",
+  "@platform_lowStockBody": {
+    "placeholders": {
+      "product": { "type": "String" },
+      "quantity": { "type": "String" }
+    }
+  },
+  "platform_outOfStockBody": "{product} is out of stock.",
+  "@platform_outOfStockBody": {
+    "placeholders": {
+      "product": { "type": "String" }
+    }
+  },
+  "platform_notificationChannelName": "Low stock",
+  "platform_notificationChannelDescription": "Tells you when a product reaches its reorder point or runs out.",
+
+  "platform_devScannerSection": "Barcode scanner",
+  "platform_devNotificationsSection": "Notifications",
+  "platform_devFilesSection": "Files",
+  "platform_devPlatformLabel": "Platform: {platform}",
+  "@platform_devPlatformLabel": {
+    "placeholders": {
+      "platform": { "type": "String" }
+    }
+  },
+  "platform_devCameraAvailable": "Camera scanning is available",
+  "platform_devCameraUnavailable": "No camera scanning — the keyboard-wedge dialog is used",
+  "platform_devScan": "Scan a barcode",
+  "platform_devRequestPermission": "Ask for notification permission",
+  "platform_devShowLow": "Show a low-stock notification",
+  "platform_devShowOut": "Show an out-of-stock notification",
+  "platform_devPick": "Pick a file",
+  "platform_devSave": "Save a test file",
+  "platform_devResult": "Result",
+  "platform_devNoResult": "Nothing yet",
+  "platform_devPermissionGranted": "Permission granted",
+  "platform_devPermissionDenied": "Permission denied",
+  "platform_devNotificationSent": "Notification sent (it may be held back by the one-per-hour limit)",
+  "platform_devPicked": "Picked {name} ({bytes} bytes)",
+  "@platform_devPicked": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "bytes": { "type": "String" }
+    }
+  },
+  "platform_devSaved": "Saved",
+  "platform_devCancelled": "Cancelled",
+  "platform_devScanned": "Scanned: {code}",
+  "@platform_devScanned": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+  "platform_devFailed": "Failed: {error}",
+  "@platform_devFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  }
+}

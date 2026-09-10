@@ -4,5 +4,97 @@
   "stock_receiveTitle": "استلام بضاعة",
   "stock_adjustTitle": "تعديل المخزون",
   "stock_countTitle": "جرد المخزون",
-  "stock_historyTitle": "سجل المخزون"
+  "stock_historyTitle": "سجل المخزون",
+
+  "stock_unitPiece": "قطعة",
+  "stock_unitKg": "كجم",
+  "stock_unitG": "جم",
+  "stock_unitL": "لتر",
+  "stock_unitMl": "مل",
+  "stock_unitBox": "كرتونة",
+  "stock_unitPack": "عبوة",
+
+  "stock_typeReceive": "استلام",
+  "stock_typeSale": "بيع",
+  "stock_typeDamaged": "تالف",
+  "stock_typeExpired": "منتهي الصلاحية",
+  "stock_typeAdjustment": "تصحيح",
+  "stock_typeCount": "جرد",
+  "stock_typeTransferIn": "تحويل وارد",
+  "stock_typeTransferOut": "تحويل صادر",
+
+  "stock_codeLabel": "امسح الباركود أو اكتبه",
+  "stock_codeHelper": "قارئ الباركود USB يكتب هنا تلقائيًا",
+  "stock_codeSubmit": "ابحث عن المنتج",
+  "stock_codeNotFound": "لا يوجد منتج بالكود {code}",
+  "@stock_codeNotFound": {
+    "placeholders": { "code": { "type": "String" } }
+  },
+  "stock_lookupFailed": "تعذّر البحث عن المنتج. حاول مرة أخرى.",
+  "stock_scan": "المسح بالكاميرا",
+  "stock_findProduct": "بحث في المنتجات",
+  "stock_pickProduct": "أي منتج؟",
+  "stock_pickProductBody": "امسح باركود أو ابحث عن منتج لتعديل مخزونه.",
+
+  "stock_quantityLabel": "الكمية",
+  "stock_unitCostLabel": "سعر الوحدة (اختياري)",
+  "stock_unitCostHelper": "ما دفعته للوحدة في هذه الشحنة",
+  "stock_invalidQuantity": "أدخل كمية، مثل ٢ أو ٢٫٥",
+  "stock_invalidWholeQuantity": "أدخل رقمًا صحيحًا، مثل ١٢",
+  "stock_invalidAmount": "أدخل مبلغًا، مثل ١٢٫٥٠",
+
+  "stock_reorderPointTitle": "حد إعادة الطلب",
+  "stock_reorderPointLabel": "نبّهني عند",
+  "stock_reorderPointHelper": "القيمة ٠ توقف تنبيهات نقص هذا المنتج",
+  "stock_reorderPointValue": "حد إعادة الطلب: {value}",
+  "@stock_reorderPointValue": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_reorderPointSaved": "تم حفظ حد إعادة الطلب",
+
+  "stock_recentTitle": "آخر التغييرات",
+  "stock_noMovements": "لا توجد حركات مخزون بعد",
+  "stock_noMovementsBody": "ستظهر هنا عمليات الاستلام والتصحيح فور تسجيلها.",
+  "stock_afterQuantity": "الآن {value}",
+  "@stock_afterQuantity": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_currentQuantity": "المتوفر: {value}",
+  "@stock_currentQuantity": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_alertSummary": "{out} نفد · {low} على وشك النفاد",
+  "@stock_alertSummary": {
+    "placeholders": { "out": { "type": "String" }, "low": { "type": "String" } }
+  },
+
+  "stock_receiveEmptyTitle": "امسح أول صنف",
+  "stock_receiveEmptyBody": "امسح الباركود، أدخل الكمية الواردة، ثم تابع. لا يُحفظ شيء قبل الضغط على إنهاء.",
+  "stock_receiveSummary": "{lines} منتجات · {total} وحدة",
+  "@stock_receiveSummary": {
+    "placeholders": { "lines": { "type": "String" }, "total": { "type": "String" } }
+  },
+  "stock_finish": "إنهاء",
+  "stock_receiveDone": "تم حفظ الشحنة · {count} منتجات",
+  "@stock_receiveDone": {
+    "placeholders": { "count": { "type": "String" } }
+  },
+  "stock_discardTitle": "إلغاء هذه الشحنة؟",
+  "stock_discardBody": "ستُحذف الأصناف الممسوحة، ولم يُحفظ شيء بعد.",
+
+  "stock_reasonLabel": "ماذا حدث؟",
+  "stock_directionAdd": "إضافة",
+  "stock_directionRemove": "خصم",
+  "stock_noteLabel": "ملاحظة (اختياري)",
+  "stock_noteHelper": "سبب تغيّر المخزون — يفيد عند المراجعة لاحقًا",
+  "stock_negativeNotAllowed": "الكمية أكبر من المتوفر. استخدم تصحيحًا إذا كان الرصيد غير صحيح.",
+  "stock_negativeConfirmTitle": "حفظ رصيد بالسالب؟",
+  "stock_negativeConfirmBody": "سيصبح رصيد المنتج {value}. احفظه فقط إذا كان الرصيد فعلًا أقل من صفر.",
+  "@stock_negativeConfirmBody": {
+    "placeholders": { "value": { "type": "String" } }
+  },
+  "stock_adjustDone": "تم الحفظ · الرصيد الآن {value}",
+  "@stock_adjustDone": {
+    "placeholders": { "value": { "type": "String" } }
+  }
 }

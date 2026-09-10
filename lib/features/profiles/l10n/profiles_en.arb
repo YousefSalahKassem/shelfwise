@@ -1,5 +1,47 @@
 {
   "@@locale": "en",
   "profiles_lockTitle": "Who's using the app?",
-  "profiles_manageTitle": "Profiles"
+  "profiles_manageTitle": "Profiles",
+  "profiles_roleOwner": "Owner",
+  "profiles_roleStaff": "Staff",
+  "profiles_unlockTitle": "Enter {name}'s PIN",
+  "@profiles_unlockTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "profiles_wrongPin": "Wrong PIN. Try again.",
+  "profiles_lockedOut": "Too many wrong tries. Wait {seconds} s.",
+  "@profiles_lockedOut": {
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+  "profiles_noneActive": "No profile can unlock this device. Ask the owner.",
+  "profiles_lockNow": "Lock now",
+  "profiles_addStaff": "Add staff",
+  "profiles_addTitle": "New staff profile",
+  "profiles_editTitle": "Edit profile",
+  "profiles_name": "Name",
+  "profiles_language": "Language",
+  "profiles_languageStore": "Same as the store",
+  "profiles_pinHint": "4 to 6 digits",
+  "profiles_pinRepeat": "Enter the PIN again",
+  "profiles_pinMismatch": "The two PINs are different. Start again.",
+  "profiles_resetPin": "Change PIN",
+  "profiles_deactivate": "Deactivate",
+  "profiles_reactivate": "Reactivate",
+  "profiles_deactivateTitle": "Deactivate {name}?",
+  "@profiles_deactivateTitle": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+  "profiles_deactivateBody": "They can no longer unlock the app. Their past stock movements are kept.",
+  "profiles_inactiveSection": "Inactive",
+  "profiles_activeSection": "Active",
+  "profiles_errorName": "Enter a name.",
+  "profiles_errorPin": "The PIN must be 4 to 6 digits.",
+  "profiles_limitReached": "Your plan includes {max} staff profiles. Upgrade the plan to add more.",
+  "@profiles_limitReached": {
+    "placeholders": { "max": { "type": "int" } }
+  },
+  "profiles_ownerProtected": "The owner profile stays active.",
+  "profiles_savedAdded": "Profile added.",
+  "profiles_savedUpdated": "Profile saved.",
+  "profiles_savedPin": "PIN changed."
 }

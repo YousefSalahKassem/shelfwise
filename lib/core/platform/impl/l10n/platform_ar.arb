@@ -1,0 +1,82 @@
+{
+  "@@locale": "ar",
+
+  "platform_scanTitle": "مسح الباركود",
+  "platform_scanHint": "وجّه الكاميرا نحو الباركود",
+  "platform_scanTorch": "الفلاش",
+  "platform_scanSwitchCamera": "تبديل الكاميرا",
+  "platform_scanEnterManually": "أدخل الرمز يدويًا",
+  "platform_cameraDeniedTitle": "الوصول إلى الكاميرا مغلق",
+  "platform_cameraDeniedBody": "نحتاج الكاميرا لمسح الباركود. فعّل إذن الكاميرا لهذا التطبيق من إعدادات الجهاز، أو أدخل الرمز يدويًا.",
+  "platform_cameraUnsupportedTitle": "لا توجد كاميرا متاحة",
+  "platform_cameraUnsupportedBody": "لا توجد كاميرا يمكن للتطبيق استخدامها على هذا الجهاز. استخدم قارئ باركود USB أو أدخل الرمز يدويًا.",
+  "platform_cameraErrorTitle": "تعذّر تشغيل الكاميرا",
+  "platform_cameraErrorBody": "أغلق أي تطبيق آخر يستخدم الكاميرا وحاول مرة أخرى، أو أدخل الرمز يدويًا.",
+
+  "platform_wedgeTitle": "امسح الباركود أو اكتبه",
+  "platform_wedgeHint": "الباركود",
+  "platform_wedgeHelp": "امسح بقارئ USB أو بلوتوث، أو اكتب الرمز واضغط Enter.",
+  "platform_wedgeSubmit": "استخدام الرمز",
+
+  "platform_lowStockTitle": "المخزون منخفض",
+  "platform_outOfStockTitle": "نفد المخزون",
+  "platform_lowStockBody": "{product} لم يتبقَّ منه سوى {quantity}.",
+  "@platform_lowStockBody": {
+    "placeholders": {
+      "product": { "type": "String" },
+      "quantity": { "type": "String" }
+    }
+  },
+  "platform_outOfStockBody": "{product} نفد من المخزون.",
+  "@platform_outOfStockBody": {
+    "placeholders": {
+      "product": { "type": "String" }
+    }
+  },
+  "platform_notificationChannelName": "المخزون المنخفض",
+  "platform_notificationChannelDescription": "ينبّهك عندما يصل منتج إلى حد إعادة الطلب أو ينفد.",
+
+  "platform_devScannerSection": "قارئ الباركود",
+  "platform_devNotificationsSection": "الإشعارات",
+  "platform_devFilesSection": "الملفات",
+  "platform_devPlatformLabel": "المنصة: {platform}",
+  "@platform_devPlatformLabel": {
+    "placeholders": {
+      "platform": { "type": "String" }
+    }
+  },
+  "platform_devCameraAvailable": "المسح بالكاميرا متاح",
+  "platform_devCameraUnavailable": "لا يوجد مسح بالكاميرا — سيُستخدم مربّع إدخال القارئ",
+  "platform_devScan": "مسح باركود",
+  "platform_devRequestPermission": "طلب إذن الإشعارات",
+  "platform_devShowLow": "عرض إشعار مخزون منخفض",
+  "platform_devShowOut": "عرض إشعار نفاد المخزون",
+  "platform_devPick": "اختيار ملف",
+  "platform_devSave": "حفظ ملف تجريبي",
+  "platform_devResult": "النتيجة",
+  "platform_devNoResult": "لا شيء بعد",
+  "platform_devPermissionGranted": "تم منح الإذن",
+  "platform_devPermissionDenied": "تم رفض الإذن",
+  "platform_devNotificationSent": "أُرسل الإشعار (قد يُحجب بسبب حد إشعار واحد كل ساعة)",
+  "platform_devPicked": "تم اختيار {name} ({bytes} بايت)",
+  "@platform_devPicked": {
+    "placeholders": {
+      "name": { "type": "String" },
+      "bytes": { "type": "String" }
+    }
+  },
+  "platform_devSaved": "تم الحفظ",
+  "platform_devCancelled": "تم الإلغاء",
+  "platform_devScanned": "تم المسح: {code}",
+  "@platform_devScanned": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+  "platform_devFailed": "فشل: {error}",
+  "@platform_devFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  }
+}
