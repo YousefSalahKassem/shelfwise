@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        generate_for:
+          - lib/**
+          - test/**
+      riverpod_generator:
+        generate_for:
+          - lib/**
+          - test/**
+      json_serializable:
+        generate_for:
+          - lib/**

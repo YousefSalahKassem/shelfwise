@@ -1,0 +1,10 @@
+{
+  "@@locale": "en",
+  "settings_title": "Settings",
+  "settings_theme": "Theme",
+  "settings_language": "Language",
+  "settings_latinDigits": "Use Latin digits (0-9)",
+  "settings_profiles": "Profiles",
+  "settings_backup": "Backup & restore",
+  "settings_import": "Import products"
+}

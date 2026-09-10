@@ -1,0 +1,29 @@
+{
+  "id": "demo-green",
+  "appName": "GreenMart Stock",
+  "tier": "shelf",
+  "colors": {
+    "primary": "#4D7C0F",
+    "secondary": "#B45309"
+  },
+  "logo": "assets/brands/demo-green/logo.png",
+  "logoDark": "assets/brands/demo-green/logo_dark.png",
+  "icon": "assets/brands/demo-green/icon.png",
+  "defaultLocale": "ar",
+  "supportedLocales": [
+    "ar",
+    "en"
+  ],
+  "defaultCurrency": "SAR",
+  "latinDigitsByDefault": true,
+  "featureOverrides": {},
+  "support": {
+    "phone": "+966 50 000 0000",
+    "whatsapp": "+966 50 000 0000",
+    "email": "help@greenmart.example"
+  },
+  "legal": {
+    "companyName": "GreenMart Trading",
+    "privacyUrl": "https://greenmart.example/privacy"
+  }
+}

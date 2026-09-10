@@ -1,0 +1,29 @@
+{
+  "id": "shelfwise",
+  "appName": "ShelfWise",
+  "tier": "aisle",
+  "colors": {
+    "primary": "#0D6A56",
+    "secondary": "#A86F00"
+  },
+  "logo": "assets/brands/shelfwise/logo.png",
+  "logoDark": "assets/brands/shelfwise/logo_dark.png",
+  "icon": "assets/brands/shelfwise/icon.png",
+  "defaultLocale": "en",
+  "supportedLocales": [
+    "ar",
+    "en"
+  ],
+  "defaultCurrency": "EGP",
+  "latinDigitsByDefault": true,
+  "featureOverrides": {},
+  "support": {
+    "phone": "+20 100 000 0000",
+    "whatsapp": "+20 100 000 0000",
+    "email": "support@shelfwise.example"
+  },
+  "legal": {
+    "companyName": "ShelfWise",
+    "privacyUrl": "https://shelfwise.example/privacy"
+  }
+}

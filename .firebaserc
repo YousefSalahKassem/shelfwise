@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "shelfwise-dev",
+    "dev": "shelfwise-dev",
+    "prod": "shelfwise-prod"
+  },
+  "targets": {
+    "shelfwise-dev": {
+      "hosting": {
+        "shelfwise": ["shelfwise-dev"],
+        "demo-green": ["demo-green-shelfwise-dev"]
+      }
+    }
+  }
+}

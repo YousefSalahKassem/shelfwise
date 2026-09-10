@@ -1,0 +1,10 @@
+{
+  "@@locale": "ar",
+  "settings_title": "الإعدادات",
+  "settings_theme": "المظهر",
+  "settings_language": "اللغة",
+  "settings_latinDigits": "استخدام الأرقام اللاتينية (0-9)",
+  "settings_profiles": "الملفات الشخصية",
+  "settings_backup": "النسخ الاحتياطي والاستعادة",
+  "settings_import": "استيراد المنتجات"
+}

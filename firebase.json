@@ -1,0 +1,26 @@
+{
+  "hosting": [
+    {
+      "target": "shelfwise",
+      "public": "dist/shelfwise",
+      "ignore": ["firebase.json", "**/.*"],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }],
+      "headers": [
+        { "source": "**/*.wasm", "headers": [{ "key": "Content-Type", "value": "application/wasm" }] },
+        { "source": "/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+        { "source": "**/*.@(js|wasm|png|ttf|otf)", "headers": [{ "key": "Cache-Control", "value": "max-age=604800" }] }
+      ]
+    },
+    {
+      "target": "demo-green",
+      "public": "dist/demo-green",
+      "ignore": ["firebase.json", "**/.*"],
+      "rewrites": [{ "source": "**", "destination": "/index.html" }],
+      "headers": [
+        { "source": "**/*.wasm", "headers": [{ "key": "Content-Type", "value": "application/wasm" }] },
+        { "source": "/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+        { "source": "**/*.@(js|wasm|png|ttf|otf)", "headers": [{ "key": "Cache-Control", "value": "max-age=604800" }] }
+      ]
+    }
+  ]
+}

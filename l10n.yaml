@@ -1,0 +1,15 @@
+# Translations are authored as per-feature fragments:
+#   lib/core/l10n/common_{en,ar}.arb
+#   lib/features/<feature>/l10n/<feature>_{en,ar}.arb
+#   lib/core/**/impl/l10n/*_{en,ar}.arb
+# Run `dart run tools/scripts/merge_arb.dart` to build lib/core/l10n/arb/app_{en,ar}.arb,
+# then `flutter gen-l10n`. Never edit lib/core/l10n/arb or lib/core/l10n/gen by hand.
+# lib/core/l10n/arb IS committed (flutter needs it on pub get); CI re-runs merge_arb
+# and fails if it changes. lib/core/l10n/gen is generated and git-ignored.
+arb-dir: lib/core/l10n/arb
+template-arb-file: app_en.arb
+output-dir: lib/core/l10n/gen
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+untranslated-messages-file: build/untranslated_messages.json

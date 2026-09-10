@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+  "stock_title": "Stock",
+  "stock_receiveTitle": "Receive delivery",
+  "stock_adjustTitle": "Adjust stock",
+  "stock_countTitle": "Stock count",
+  "stock_historyTitle": "Stock history"
+}

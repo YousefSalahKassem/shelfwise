@@ -1,0 +1,8 @@
+{
+  "@@locale": "ar",
+  "stock_title": "المخزون",
+  "stock_receiveTitle": "استلام بضاعة",
+  "stock_adjustTitle": "تعديل المخزون",
+  "stock_countTitle": "جرد المخزون",
+  "stock_historyTitle": "سجل المخزون"
+}

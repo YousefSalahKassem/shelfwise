@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+  "catalogue_productsTitle": "Products",
+  "catalogue_newProductTitle": "New product",
+  "catalogue_productTitle": "Product",
+  "catalogue_editProductTitle": "Edit product",
+  "catalogue_pickerTitle": "Choose a product"
+}
