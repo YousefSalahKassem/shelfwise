@@ -53,10 +53,10 @@ void main() {
     test('re-emits after a write', () async {
       final emissions = <List<CategoryNode>>[];
       final sub = repository.watchTree().listen(emissions.add);
-      await pumpEventQueue();
+      await Future<void>.delayed(const Duration(milliseconds: 20));
 
       await repository.create('Bakery');
-      await pumpEventQueue();
+      await Future<void>.delayed(const Duration(milliseconds: 20));
       await sub.cancel();
 
       expect(emissions.length, 2);

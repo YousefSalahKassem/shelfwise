@@ -68,7 +68,7 @@ class AppShell extends StatelessWidget {
   Widget _icon(int i, {required bool selected}) {
     final d = _destinations[i];
     final icon = Icon(selected ? d.selectedIcon : d.icon);
-    return d.path == RoutePaths.alerts ? AlertBadge(child: icon) : icon;
+    return icon;
   }
 
   @override
